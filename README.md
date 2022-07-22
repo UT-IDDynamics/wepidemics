@@ -25,7 +25,7 @@
 
 - Other co-circulating pathogens of concern (i.e., if during a significant influenza season) ([link](#other-co-circulating-pathogens-of-concern-ie-if-during-a-significant-influenza-season))
 
-- Resource / healthcare system capacity ([link](#resource-healthcare-system-capacity))
+- Resource / healthcare system capacity ([link](#resource--healthcare-system-capacity))
 
 
 # Transmissibility and efficiency of various transmission mechanisms
