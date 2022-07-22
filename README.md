@@ -17,7 +17,7 @@
 
 - Risk factors for infection and severity ([link](#risk-factors-for-infection-and-severity))
 
-- Importation risk ([link](#importantion-risk))
+- Importation risk ([link](#importation-risk))
 
 - Population mobility ([link](#population-mobility))
 
