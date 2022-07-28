@@ -16,6 +16,7 @@ headers <- lapply(fns, yaml::read_yaml)
 # General table
 
 ```{r create-tables}
+#' Takes a null value and returns `""`
 null2empty <- function(x) {
   if (length(x))
     x
@@ -23,9 +24,10 @@ null2empty <- function(x) {
     ""
 }
 
+# Creates a github type link
 linker <- function(f) {
-  f <- gsub("[^a-zA-Z0-9]", "-", f)
-  sprintf("[link](#%s)", f)
+  f <- gsub("[^a-zA-Z0-9]", "-", f) |> tolower()
+  sprintf("([link](#%s))", f)
 }
 
 lapply(headers, \(f) {
@@ -87,7 +89,7 @@ for (i in seq_along(fns)) {
   ids <- which(grepl("^---\\s*$", f))[1:2]
   cat(f[-(ids[1]:ids[2])], sep = "\n")
   
-  cat("\n([go back](#General-table))")
+  cat("\n([go back](#general-table))")
 }
 ```
 

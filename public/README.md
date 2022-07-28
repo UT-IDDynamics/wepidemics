@@ -1,10 +1,10 @@
 
 # General table
 
-| title                                                                                                                                                              | software                                                                                                     | doi                                                                          | keywords                                           |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|:---------------------------------------------------|
-| Practical considerations for measuring the effective reproductive number, Rt [link](#Practical-considerations-for-measuring-the-effective-reproductive-number--Rt) |                                                                                                              | [10.1371/journal.pcbi.1008409](https://doi.org/10.1371/journal.pcbi.1008409) | Simulation, Compartmental Models, Bias, Estimation |
-| A Flexible and General Agent-Based Model Engine [link](#A-Flexible-and-General-Agent-Based-Model-Engine)                                                           | [epiworldR (R)](https://github.com/UofUEpi/epiworldR), [epiworld (C++)](https://github.com/UofUEpi/epiworld) |                                                                              | ABM, Simulation, MCMC                              |
+| title                                                                                                                                                                | software                                                                                                     | doi                                                                          | keywords                                           |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|:---------------------------------------------------|
+| Practical considerations for measuring the effective reproductive number, Rt ([link](#practical-considerations-for-measuring-the-effective-reproductive-number--rt)) |                                                                                                              | [10.1371/journal.pcbi.1008409](https://doi.org/10.1371/journal.pcbi.1008409) | Simulation, Compartmental Models, Bias, Estimation |
+| A Flexible and General Agent-Based Model Engine ([link](#a-flexible-and-general-agent-based-model-engine))                                                           | [epiworldR (R)](https://github.com/UofUEpi/epiworldR), [epiworld (C++)](https://github.com/UofUEpi/epiworld) |                                                                              | ABM, Simulation, MCMC                              |
 
 # Details
 
@@ -19,7 +19,7 @@ near-real-time, and correctly inferring the timing of changes in Rt, is
 challenging. Here, we provide an overview of challenges and best
 practices for accurate and timely Rt estimation.”
 
-([go back](#General-table))
+([go back](#general-table))
 
 ## A Flexible and General Agent-Based Model Engine
 
@@ -28,4 +28,4 @@ building framework. It can be used for estimating parameters, forward
 simulation, and policy evaluation. The C++ library is also implemented
 in R.
 
-([go back](#General-table))
+([go back](#general-table))
