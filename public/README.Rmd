@@ -1,0 +1,93 @@
+---
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(yaml)
+library(data.table)
+```
+
+```{r listing-reading}
+fns     <- list.files("../data", full.names = TRUE)
+headers <- lapply(fns, yaml::read_yaml)
+```
+
+# General table
+
+```{r create-tables}
+null2empty <- function(x) {
+  if (length(x))
+    x
+  else
+    ""
+}
+
+linker <- function(f) {
+  f <- gsub("[^a-zA-Z0-9]", "-", f)
+  sprintf("[link](#%s)", f)
+}
+
+lapply(headers, \(f) {
+  
+  title    <- f$`title-paper`
+  software <- f$`software-package`
+  doi      <- f$doi
+  
+  # Processing software tools
+  software <- if (length(software)) {
+    sprintf(
+      "[%s (%s)](%s)",
+      sapply(software, "[[", 2),
+      sapply(software, "[[", 1),
+      sapply(software, "[[", 3)
+    ) |> paste(collapse = ", ")
+  } else
+    ""
+  
+  # Processing DOI
+  doi <- if (length(doi)) {
+    sprintf("[%s](https://doi.org/%s)", doi, doi)
+  } else 
+    ""
+  
+  # Processing keywords
+  keywords <- f$keywords
+  keywords <- if (length(keywords))
+    paste(keywords, collapse = ", ")
+  else
+    ""
+  
+  # Putting all together
+  data.table(
+    title    = paste(
+      null2empty(title),
+      linker(title)
+      ),
+    software = software,
+    doi      = null2empty(doi),
+    keywords = keywords
+  )
+  
+}) |> rbindlist(fill = TRUE) |> knitr::kable(row.names = FALSE)
+```
+
+# Details
+
+```{r printer, results='asis'}
+for (i in seq_along(fns)) {
+  
+  cat("\n\n## ")
+  cat(headers[[i]]$`title-paper`, "\n\n")
+  cat("\n")
+  
+  # Processing the text
+  f <- readLines(fns[i])
+  
+  ids <- which(grepl("^---\\s*$", f))[1:2]
+  cat(f[-(ids[1]:ids[2])], sep = "\n")
+  
+  cat("\n([go back](#General-table))")
+}
+```
+
