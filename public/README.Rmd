@@ -26,7 +26,8 @@ null2empty <- function(x) {
 
 # Creates a github type link
 linker <- function(f) {
-  f <- gsub("[^a-zA-Z0-9]", "-", f) |> tolower()
+  f <- gsub("[[:punct:]]+", "", f)
+  f <- gsub("[^a-zA-Z0-9]+", "-", f) |> tolower()
   sprintf("([link](#%s))", f)
 }
 
