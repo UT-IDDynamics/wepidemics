@@ -9,7 +9,9 @@ library(data.table)
 ```
 
 ```{r listing-reading}
-fns     <- list.files("../data", full.names = TRUE)
+fns <- list.files("../data", full.names = TRUE)
+fns <- fns[!grepl("README[.]md$", fns)]
+  
 headers <- lapply(fns, yaml::read_yaml)
 ```
 
@@ -31,7 +33,7 @@ linker <- function(f) {
   sprintf("([link](#%s))", f)
 }
 
-lapply(headers, \(f) {
+tab <- lapply(headers, \(f) {
   
   title    <- f$`title-paper`
   software <- f$`software-package`
@@ -57,7 +59,7 @@ lapply(headers, \(f) {
   # Processing keywords
   keywords <- f$keywords
   keywords <- if (length(keywords))
-    paste(keywords, collapse = ", ")
+    paste0("`", keywords, "`", collapse = ", ")
   else
     ""
   
@@ -72,7 +74,11 @@ lapply(headers, \(f) {
     keywords = keywords
   )
   
-}) |> rbindlist(fill = TRUE) |> knitr::kable(row.names = FALSE)
+}) |> rbindlist(fill = TRUE)
+
+tab[, keywords := tolower(keywords)]
+
+tab |> knitr::kable(row.names = FALSE)
 ```
 
 # Details
