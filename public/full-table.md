@@ -1,12 +1,19 @@
 
+    ## Warning in readLines(f): incomplete final line found on '../data/
+    ## nbTransmission.md'
+
+    ## Warning in readLines(f): incomplete final line found on '../data/outbreaker2.md'
+
 # General table
 
 | title                                                                                                                                                                                                                       | software                                                                                                     | doi                                                                                            | keywords                                                                                                    |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
 | Accurate estimation of influenza epidemics using Google search data via ARGO ([link](#accurate-estimation-of-influenza-epidemics-using-google-search-data-via-argo))                                                        | [argo (R)](https://cran.r-project.org/package=argo)                                                          | [doi.org/10.1073/pnas.1515373112](https://doi.org/doi.org/10.1073/pnas.1515373112)             | `web sources`, `big-data`, `real-time`, `influenza`, `methods`, `hmm`, `prediction`, `markov hidden models` |
 | Practical considerations for measuring the effective reproductive number, Rt ([link](#practical-considerations-for-measuring-the-effective-reproductive-number-rt))                                                         |                                                                                                              | [10.1371/journal.pcbi.1008409](https://doi.org/10.1371/journal.pcbi.1008409)                   | `simulation`, `compartmental models`, `bias`, `estimation`                                                  |
 | International risk of yellow fever spread from the ongoing outbreak in Brazil, December 2016 to May 2017 ([link](#international-risk-of-yellow-fever-spread-from-the-ongoing-outbreak-in-brazil-december-2016-to-may-2017)) | [epiflows (R)](https://github.com/reconhub/epiflows/)                                                        | [10.2807/1560-7917.ES.2017.22.28.30572](https://doi.org/10.2807/1560-7917.ES.2017.22.28.30572) | `prediction`, `visualization`, `flows`, `diffusion`, `exportations`, `importations`                         |
 | A Flexible and General Agent-Based Model Engine ([link](#a-flexible-and-general-agent-based-model-engine))                                                                                                                  | [epiworldR (R)](https://github.com/UofUEpi/epiworldR), [epiworld (C++)](https://github.com/UofUEpi/epiworld) |                                                                                                | `abm`, `simulation`, `mcmc`                                                                                 |
+| Estimating the relative probability of direct transmission between infectious disease patients ([link](#estimating-the-relative-probability-of-direct-transmission-between-infectious-disease-patients-))                   | [nbTransmission (R)](https://CRAN.R-project.org/package=nbTransmission)                                      | [10.1093/ije/dyaa031](https://doi.org/10.1093/ije/dyaa031)                                     | `naive bayes`, `estimation`, `methods`, `transmission probability`, `snp`, `whole genome sequence`          |
+| Bayesian Reconstruction of Disease Outbreaks by Combining Epidemiologic and Genomic Data ([link](#bayesian-reconstruction-of-disease-outbreaks-by-combining-epidemiologic-and-genomic-data))                                | [outbreaker2 (R)](https://CRAN.R-project.org/package=outbreaker2)                                            | [10.1371/journal.pcbi.1003457](https://doi.org/10.1371/journal.pcbi.1003457)                   | `importations`, `mutation rate`, `genomics`, `methods`, `network`                                           |
 
 # Details
 
@@ -60,3 +67,58 @@ simulation, and policy evaluation. The C++ library is also implemented
 in R.
 
 ([go back](#general-table))([more](../data/epiworld.md))
+
+## Estimating the relative probability of direct transmission between infectious disease patients
+
+    ## Warning in readLines(fns[i]): incomplete final line found on '../data/
+    ## nbTransmission.md'
+
+From the abstract: \> **Background**: Estimating infectious disease
+parameters such as the serial interval (time between symptom onset in
+primary and secondary cases) and reproductive number (average number of
+secondary cases produced by a primary case) are important in
+understanding infectious disease dynamics. Many estimation methods
+require linking cases by direct transmission, a difficult task for most
+diseases. \> \> **Methods**: Using a subset of cases with detailed
+genetic and/or contact investigation data to develop a training set of
+probable transmission events, we build a model to estimate the relative
+transmission probability for all case-pairs from demographic, spatial
+and clinical data. Our method is based on naive Bayes, a machine
+learning classification algorithm which uses the observed frequencies in
+the training dataset to estimate the probability that a pair is linked
+given a set of covariates. \> \> **Results**: In simulations, we find
+that the probabilities estimated using genetic distance between cases to
+define training transmission events are able to distinguish between
+truly linked and unlinked pairs with high accuracy (area under the
+receiver operating curve value of 95%). Additionally, only a subset of
+the cases, 10–50% depending on sample size, need to have detailed
+genetic data for our method to perform well. We show how these
+probabilities can be used to estimate the average effective reproductive
+number and apply our method to a tuberculosis outbreak in Hamburg,
+Germany.
+
+([go back](#general-table))([more](../data/nbTransmission.md))
+
+## Bayesian Reconstruction of Disease Outbreaks by Combining Epidemiologic and Genomic Data
+
+    ## Warning in readLines(fns[i]): incomplete final line found on '../data/
+    ## outbreaker2.md'
+
+From the paper: \> Understanding how infectious diseases are transmitted
+from one individual to another is essential for designing containment
+strategies and epidemic prevention. Recently, the reconstruction of
+transmission trees (“who infected whom”) has been revolutionized by the
+availability of pathogen genome sequences. Exploiting this information
+remains a challenge, however, with a variety of heuristic approaches
+having been explored to date. Here, we introduce a new method which uses
+both pathogen DNA and collection dates to gain insights into
+transmission events, and detect unobserved cases and separate
+introductions of the disease. Our approach is also useful for
+identifying super-spreaders, i.e., cases which caused many subsequent
+infections. After testing our method using simulations, we use it to
+gain new insights into the beginning of the 2003 Singaporean outbreak of
+Severe Acute Respiratory Syndrome (SARS). Our approach is applicable to
+a wide range of diseases and available in a free software package called
+outbreaker.
+
+([go back](#general-table))([more](../data/outbreaker2.md))
