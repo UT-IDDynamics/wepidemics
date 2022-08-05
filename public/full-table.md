@@ -2,7 +2,7 @@
 # General table
 
 | title                                                                                                                                                                                                                       | software                                                                                                     | doi                                                                                            | keywords                                                                                                    |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
 | Accurate estimation of influenza epidemics using Google search data via ARGO ([link](#accurate-estimation-of-influenza-epidemics-using-google-search-data-via-argo))                                                        | [argo (R)](https://cran.r-project.org/package=argo)                                                          | [doi.org/10.1073/pnas.1515373112](https://doi.org/doi.org/10.1073/pnas.1515373112)             | `web sources`, `big-data`, `real-time`, `influenza`, `methods`, `hmm`, `prediction`, `markov hidden models` |
 | Practical considerations for measuring the effective reproductive number, Rt ([link](#practical-considerations-for-measuring-the-effective-reproductive-number-rt))                                                         |                                                                                                              | [10.1371/journal.pcbi.1008409](https://doi.org/10.1371/journal.pcbi.1008409)                   | `simulation`, `compartmental models`, `bias`, `estimation`                                                  |
 | International risk of yellow fever spread from the ongoing outbreak in Brazil, December 2016 to May 2017 ([link](#international-risk-of-yellow-fever-spread-from-the-ongoing-outbreak-in-brazil-december-2016-to-may-2017)) | [epiflows (R)](https://github.com/reconhub/epiflows/)                                                        | [10.2807/1560-7917.ES.2017.22.28.30572](https://doi.org/10.2807/1560-7917.ES.2017.22.28.30572) | `prediction`, `visualization`, `flows`, `diffusion`, `exportations`, `importations`                         |
@@ -28,7 +28,7 @@ making it a potentially powerful tool that can be used for real-time
 tracking of other social events at multiple temporal and spatial
 resolutions.
 
-([go back](#general-table))
+([go back](#general-table))([more](../data/argo.md))
 
 ## Practical considerations for measuring the effective reproductive number, Rt
 
@@ -41,7 +41,7 @@ near-real-time, and correctly inferring the timing of changes in Rt, is
 challenging. Here, we provide an overview of challenges and best
 practices for accurate and timely Rt estimation.”
 
-([go back](#general-table))
+([go back](#general-table))([more](../data/effective-rep-number.md))
 
 ## International risk of yellow fever spread from the ongoing outbreak in Brazil, December 2016 to May 2017
 
@@ -50,7 +50,7 @@ infectious diseases based on flows between geographical locations, e.g.,
 countries. epiflows provides functions for calculating spread estimates,
 handling flow data, and visualization.
 
-([go back](#general-table))
+([go back](#general-table))([more](../data/epiflows.md))
 
 ## A Flexible and General Agent-Based Model Engine
 
@@ -59,4 +59,4 @@ building framework. It can be used for estimating parameters, forward
 simulation, and policy evaluation. The C++ library is also implemented
 in R.
 
-([go back](#general-table))
+([go back](#general-table))([more](../data/epiworld.md))
