@@ -70,9 +70,6 @@ in R.
 
 ## Estimating the relative probability of direct transmission between infectious disease patients
 
-    ## Warning in readLines(fns[i]): incomplete final line found on '../data/
-    ## nbTransmission.md'
-
 From the abstract: \> **Background**: Estimating infectious disease
 parameters such as the serial interval (time between symptom onset in
 primary and secondary cases) and reproductive number (average number of
@@ -100,9 +97,6 @@ Germany.
 ([go back](#general-table))([more](../data/nbTransmission.md))
 
 ## Bayesian Reconstruction of Disease Outbreaks by Combining Epidemiologic and Genomic Data
-
-    ## Warning in readLines(fns[i]): incomplete final line found on '../data/
-    ## outbreaker2.md'
 
 From the paper: \> Understanding how infectious diseases are transmitted
 from one individual to another is essential for designing containment

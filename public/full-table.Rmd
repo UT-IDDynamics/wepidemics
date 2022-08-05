@@ -95,7 +95,7 @@ for (i in seq_along(fns)) {
   cat("\n")
   
   # Processing the text
-  f <- readLines(fns[i])
+  f <- readLines(fns[i], warn = FALSE)
   
   ids <- which(grepl("^---\\s*$", f))[1:2]
   cat(f[-(ids[1]:ids[2])], sep = "\n")
