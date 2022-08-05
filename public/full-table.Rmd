@@ -6,37 +6,18 @@ output: github_document
 knitr::opts_chunk$set(echo = FALSE)
 library(yaml)
 library(data.table)
+source("functions.R")
 ```
 
-```{r listing-reading}
+```{r listing-reading, warning=FALSE}
 fns <- list.files("../data", full.names = TRUE) |> sort()
 fns <- fns[!grepl("README[.]md$", fns)]
-  
-headers <- lapply(fns, \(f) {
-  f <- readLines(f)
-  ids <- which(grepl("^---\\s*$", f))[1:2]
-  yaml::read_yaml(text = paste(f[ids[1]:ids[2]], collapse = "\n"))
-  })
+headers <- get_headers(fns)
 ```
 
 # General table
 
 ```{r create-tables}
-#' Takes a null value and returns `""`
-null2empty <- function(x) {
-  if (length(x))
-    x
-  else
-    ""
-}
-
-# Creates a github type link
-linker <- function(f) {
-  f <- gsub("[,.:;]+", "", f)
-  f <- gsub("[^a-zA-Z0-9]+", "-", f) |> tolower()
-  sprintf("([link](#%s))", f)
-}
-
 tab <- lapply(headers, \(f) {
   
   title    <- f$`title-paper`

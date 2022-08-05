@@ -1,9 +1,4 @@
 
-    ## Warning in readLines(f): incomplete final line found on '../data/
-    ## nbTransmission.md'
-
-    ## Warning in readLines(f): incomplete final line found on '../data/outbreaker2.md'
-
 # General table
 
 | title                                                                                                                                                                                                                       | software                                                                                                     | doi                                                                                            | keywords                                                                                                    |
