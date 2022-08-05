@@ -12,7 +12,11 @@ library(data.table)
 fns <- list.files("../data", full.names = TRUE)
 fns <- fns[!grepl("README[.]md$", fns)]
   
-headers <- lapply(fns, yaml::read_yaml)
+headers <- lapply(fns, \(f) {
+  f <- readLines(f)
+  ids <- which(grepl("^---\\s*$", f))[1:2]
+  yaml::read_yaml(text = paste(f[ids[1]:ids[2]], collapse = "\n"))
+  })
 ```
 
 # General table
