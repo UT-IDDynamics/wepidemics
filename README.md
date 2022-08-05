@@ -1,1 +1,1 @@
-public/README.md
+public/full-table.md
