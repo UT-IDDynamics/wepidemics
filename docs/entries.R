@@ -4,6 +4,9 @@ fns <- list.files("data", full.names = TRUE) |> sort()
 fns <- fns[!grepl("README[.]md$", fns)]
 headers <- get_headers(fns)
 
+# Common URL for the data entries
+entry_url <- "https://github.com/UT-IDDynamics/wepidemics/blob/main/"
+
 # Iterating through each document
 for (f in fns) {
   
@@ -22,9 +25,10 @@ for (f in fns) {
   adder("# ", null2empty(header$name), "\n")
   adder(menu_maker(path = "../"),"\n")
   
-  # Adding content
+  # Adding content -------------------------------------------------------------
   adder(sprintf("**doi:** [%s](https://doi.org/%s)\n", header$doi, header$doi))
   
+  # Keywords
   if (length(header$keywords)) {
     
     keywords <- tolower(header$keywords)
@@ -35,13 +39,43 @@ for (f in fns) {
     
   }
   
+  # Software
+  if (length(header$`software-package`)) {
+    
+    adder("**software:**\n")
+    
+    for (s in header$`software-package`)
+      adder(sprintf(" - [%s](%s) (%s)", s[2], s[3], s[1]))
+    
+  }
+  
+  # Example papers
+  if (length(header$`example-papers`)) {
+    
+    adder("**Example papers:**\n")
+    
+    for (p in header$`example-papers`) 
+      adder(sprintf(" - [%s](%1$s)", p))
+    
+  }
+  
+  # Links
+  if (length(header$links)) {
+    
+    adder("**Links:**\n")
+    
+    for (p in header$links) 
+      adder(sprintf(" - [%s](%1$s)", p))
+    
+  }
+  
   # Contents
-  adder(get_content(f)[[1]])
+  adder("\n\n## Content\n\n", get_content(f)[[1]])
   
   # Link to the original
   adder(
     "\n\n **original entry:** ",
-    paste0("https://github.com/UT-IDDynamics/wepidemics/blob/main/", f)
+    sprintf("[%s%s](%1$s%2$s)", entry_url, f)
     )
   
 }

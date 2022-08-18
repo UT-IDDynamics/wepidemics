@@ -1,0 +1,118 @@
+---
+output: github_document
+title: By parameter
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(yaml)
+library(data.table)
+source("functions.R")
+```
+
+```{r results='asis'}
+menu_maker("")
+```
+
+```{r listing-reading}
+fns <- list.files("../data", full.names = TRUE) |> sort()
+fns <- fns[!grepl("README[.]md$", fns)]
+headers <- get_headers(fns)
+```
+
+
+```{r create-tables, results='asis'}
+tab <- lapply(names(headers), \(h) {
+  
+  f        <- headers[[h]]
+  
+  title    <- f$`title-paper`
+  software <- f$`software-package`
+  doi      <- f$doi
+  
+  # Processing software tools
+  software <- if (length(software)) {
+    sprintf(
+      "[%s (%s)](%s)",
+      sapply(software, "[[", 2),
+      sapply(software, "[[", 1),
+      sapply(software, "[[", 3)
+    ) |> paste(collapse = ", ")
+  } else
+    ""
+  
+  # Processing DOI
+  doi <- if (length(doi)) {
+    sprintf("[%s](https://doi.org/%s)", doi, doi)
+  } else 
+    ""
+  
+  # Processing parameters
+  parameters <- f$parameters
+  parameters <- if (length(parameters))
+    paste0("`", parameters, "`", collapse = ", ")
+  else
+    ""
+  
+  # Putting all together
+  data.table(
+    title    = paste(
+      null2empty(title),
+      sprintf("[(**link**)](%s)", gsub("[.]{2}/data", "entries", h))
+      ),
+    software = software,
+    doi      = null2empty(doi),
+    parameters = parameters
+  )
+  
+}) |> rbindlist(fill = TRUE)
+
+tab$files <- names(headers)
+
+tab[, parameters := tolower(parameters)]
+
+# Building parameters entries
+parameters <- strsplit(tab$parameters, split = "\\s*,\\s*") |>
+  unlist(recursive = TRUE) |>
+  sort()
+
+# Extracting the first letter word (to make an index)
+parameters <- data.table(
+  parameters = parameters,
+  first   = gsub("^`([[:alnum:]]).+", "\\1", parameters)
+)
+
+for (l in sort(unique(parameters$first))) {
+  cat("**", toupper(l), "** ", sep = "")
+  tmp <- parameters[first == l, c(parameters)] |>
+    unique()
+  
+  linker(tmp, tmp) |>
+    cat(sep = ", ")
+  
+  cat("\n\n")
+}
+```
+
+# Details
+
+```{r printer, results='asis'}
+for (kw in sort(unique(parameters$parameters))) {
+  
+  cat("\n\n## ", gsub("`", "", kw), "\n\n")
+  
+  entries <- tab[grepl(kw, parameters)]
+  
+  cat(
+    sprintf(
+      "%i. %s %s",
+      1:nrow(entries),
+      entries$title,
+      fifelse(entries$software == "", "", paste0("(*software*: ", entries$software, ")"))
+      ),
+    sep = "\n"
+  )
+
+}
+```
+

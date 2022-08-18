@@ -1,7 +1,8 @@
 By keywords
 ================
 
-[**By keywords**](by-keyword.md) \| [**Full table**](full-table.md)
+[**By keywords**](by-keyword.md) \| [**By parameter**](by-parameter.md)
+\| [**Full table**](full-table.md)
 
 **A** [`abm`](#abm)
 
