@@ -12,4 +12,4 @@ full-table.md: full-table.Rmd
 entries: entries.R
 	Rscript --vanilla --verbose entries.R
 
-.PHONY: full-table.md by-keyword.md by-parameter.md entries
+.PHONY: entries

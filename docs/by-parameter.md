@@ -4,6 +4,8 @@ By parameter
 [**By keywords**](by-keyword.md) \| [**By parameter**](by-parameter.md)
 \| [**Full table**](full-table.md)
 
+INDEX
+
 **G** [`generation time`](#generation-time)
 
 **R** [`r0`](#r0), [`rt`](#rt)

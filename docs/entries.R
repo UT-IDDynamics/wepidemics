@@ -32,6 +32,9 @@ for (f in fns) {
   adder(menu_maker(path = "../", escape_bar = TRUE),"\n")
   
   # Adding content -------------------------------------------------------------
+  adder(sprintf("**title of the paper:** %s\n", header$`title-paper`))
+  
+  # DOI
   adder(sprintf("**doi:** [%s](https://doi.org/%s)\n", header$doi, header$doi))
   
   # Keywords

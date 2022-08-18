@@ -6,6 +6,8 @@
 [**By keywords**](../by-keyword.md) \| [**By parameter**](../by-parameter.md) \| [**Full table**](../full-table.md)
  
  
+**title of the paper:** Estimating the relative probability of direct transmission between infectious disease patients 
+ 
 **doi:** [10.1093/ije/dyaa031](https://doi.org/10.1093/ije/dyaa031)
  
 **keywords:** [**`naive bayes`**](../by-keyword.md#naive-bayes), [**`estimation`**](../by-keyword.md#estimation), [**`methods`**](../by-keyword.md#methods), [**`transmission probability`**](../by-keyword.md#transmission-probability), [**`snp`**](../by-keyword.md#snp), [**`whole genome sequence`**](../by-keyword.md#whole-genome-sequence) 

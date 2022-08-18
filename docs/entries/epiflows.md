@@ -6,6 +6,8 @@
 [**By keywords**](../by-keyword.md) \| [**By parameter**](../by-parameter.md) \| [**Full table**](../full-table.md)
  
  
+**title of the paper:** International risk of yellow fever spread from the ongoing outbreak in Brazil, December 2016 to May 2017
+ 
 **doi:** [10.2807/1560-7917.ES.2017.22.28.30572](https://doi.org/10.2807/1560-7917.ES.2017.22.28.30572)
  
 **keywords:** [**`prediction`**](../by-keyword.md#prediction), [**`visualization`**](../by-keyword.md#visualization), [**`flows`**](../by-keyword.md#flows), [**`diffusion`**](../by-keyword.md#diffusion), [**`exportations`**](../by-keyword.md#exportations), [**`importations`**](../by-keyword.md#importations) 

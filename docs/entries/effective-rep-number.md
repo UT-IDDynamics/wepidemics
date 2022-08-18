@@ -6,6 +6,8 @@
 [**By keywords**](../by-keyword.md) \| [**By parameter**](../by-parameter.md) \| [**Full table**](../full-table.md)
  
  
+**title of the paper:** Practical considerations for measuring the effective reproductive number, Rt
+ 
 **doi:** [10.1371/journal.pcbi.1008409](https://doi.org/10.1371/journal.pcbi.1008409)
  
 **keywords:** [**`simulation`**](../by-keyword.md#simulation), [**`compartmental models`**](../by-keyword.md#compartmental-models), [**`bias`**](../by-keyword.md#bias), [**`estimation`**](../by-keyword.md#estimation) 

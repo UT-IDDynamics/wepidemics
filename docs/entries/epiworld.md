@@ -6,6 +6,8 @@
 [**By keywords**](../by-keyword.md) \| [**By parameter**](../by-parameter.md) \| [**Full table**](../full-table.md)
  
  
+**title of the paper:** A Flexible and General Agent-Based Model Engine
+ 
  
 **keywords:** [**`abm`**](../by-keyword.md#abm), [**`simulation`**](../by-keyword.md#simulation), [**`mcmc`**](../by-keyword.md#mcmc) 
 
