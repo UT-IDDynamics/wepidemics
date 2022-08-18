@@ -44,7 +44,7 @@ for (f in fns) {
     keywords <- linker(keywords, paste0("**`", keywords, "`**"), "../by-keyword.md") |>
       paste(collapse = ", ")
     
-    adder("**keywords:**", keywords)
+    adder("\n**keywords:**", keywords)
     
   }
   
@@ -55,7 +55,7 @@ for (f in fns) {
     parameters <- linker(parameters, paste0("**`", parameters, "`**"), "../by-parameter.md") |>
       paste(collapse = ", ")
     
-    adder("**Parameters:**", parameters)
+    adder("\n**Parameters:**", parameters)
     
   }
   
