@@ -98,7 +98,7 @@ for (l in sort(unique(keywords$first))) {
 ```{r printer, results='asis'}
 for (kw in sort(unique(keywords$keyword))) {
   
-  cat("\n\n## ", kw, "\n\n")
+  cat("\n\n## ", gsub("`", "", kw), "\n\n")
   
   entries <- tab[grepl(kw, keywords)]
   
