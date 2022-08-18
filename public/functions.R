@@ -16,10 +16,10 @@ null2empty <- function(x) {
 }
 
 # Creates a github type link
-linker <- function(f) {
-  f <- gsub("[,.:;]+", "", f)
+linker <- function(f, txt = "link", file = "") {
+  f <- gsub("[,.:;`]+", "", f)
   f <- gsub("[^a-zA-Z0-9]+", "-", f) |> tolower()
-  sprintf("([link](#%s))", f)
+  sprintf("[%s](%s#%s)", txt, file, f)
 }
 
 menu_maker <- function(this) {

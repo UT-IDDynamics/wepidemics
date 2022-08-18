@@ -3,44 +3,42 @@ By keywords
 
 [**By keywords**](by-keyword.md) \| [**Full table**](full-table.md)
 
-**A** [`abm`](#%60abm%60)
+**A** ([`abm`](#abm))
 
-**B** [`bias`](#%60bias%60), [`big-data`](#%60big-data%60)
+**B** ([`bias`](#bias)), ([`big-data`](#big-data))
 
-**C** [`compartmental models`](#%60compartmental%20models%60)
+**C** ([`compartmental models`](#compartmental-models))
 
-**D** [`diffusion`](#%60diffusion%60)
+**D** ([`diffusion`](#diffusion))
 
-**E** [`estimation`](#%60estimation%60),
-[`exportations`](#%60exportations%60)
+**E** ([`estimation`](#estimation)), ([`exportations`](#exportations))
 
-**F** [`flows`](#%60flows%60)
+**F** ([`flows`](#flows))
 
-**G** [`genomics`](#%60genomics%60)
+**G** ([`genomics`](#genomics))
 
-**H** [`hmm`](#%60hmm%60)
+**H** ([`hmm`](#hmm))
 
-**I** [`importations`](#%60importations%60),
-[`influenza`](#%60influenza%60)
+**I** ([`importations`](#importations)), ([`influenza`](#influenza))
 
-**M** [`markov hidden models`](#%60markov%20hidden%20models%60),
-[`mcmc`](#%60mcmc%60), [`methods`](#%60methods%60),
-[`mutation rate`](#%60mutation%20rate%60)
+**M** ([`markov hidden models`](#markov-hidden-models)),
+([`mcmc`](#mcmc)), ([`methods`](#methods)),
+([`mutation rate`](#mutation-rate))
 
-**N** [`naive bayes`](#%60naive%20bayes%60), [`network`](#%60network%60)
+**N** ([`naive bayes`](#naive-bayes)), ([`network`](#network))
 
-**P** [`prediction`](#%60prediction%60)
+**P** ([`prediction`](#prediction))
 
-**R** [`real-time`](#%60real-time%60)
+**R** ([`real-time`](#real-time))
 
-**S** [`simulation`](#%60simulation%60), [`snp`](#%60snp%60)
+**S** ([`simulation`](#simulation)), ([`snp`](#snp))
 
-**T** [`transmission probability`](#%60transmission%20probability%60)
+**T** ([`transmission probability`](#transmission-probability))
 
-**V** [`visualization`](#%60visualization%60)
+**V** ([`visualization`](#visualization))
 
-**W** [`web sources`](#%60web%20sources%60),
-[`whole genome sequence`](#%60whole%20genome%20sequence%60)
+**W** ([`web sources`](#web-sources)),
+([`whole genome sequence`](#whole-genome-sequence))
 
 # Details
 

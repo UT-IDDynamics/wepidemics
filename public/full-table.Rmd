@@ -47,16 +47,18 @@ tab <- lapply(headers, \(f) {
   
   # Processing keywords
   keywords <- f$keywords
-  keywords <- if (length(keywords))
-    paste0("`", keywords, "`", collapse = ", ")
-  else
+  keywords <- if (length(keywords)) {
+    keywords <- tolower(keywords)
+    linker(keywords, paste0("**`", keywords, "`**"), "by-keyword.md") |>
+      paste(collapse = ", ")
+  } else
     ""
   
   # Putting all together
   data.table(
-    title    = paste(
+    title    = paste0(
       null2empty(title),
-      linker(title)
+      " (", linker(title), ") "
       ),
     software = software,
     doi      = null2empty(doi),

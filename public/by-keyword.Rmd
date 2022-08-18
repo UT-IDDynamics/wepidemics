@@ -65,6 +65,9 @@ tab <- lapply(headers, \(f) {
   
 }) |> rbindlist(fill = TRUE)
 
+
+
+
 tab[, keywords := tolower(keywords)]
 
 # Building keyword entries
@@ -80,9 +83,10 @@ keywords <- data.table(
 
 for (l in sort(unique(keywords$first))) {
   cat("**", toupper(l), "** ", sep = "")
-  keywords[first == l, c(keyword)] |>
-    unique() |>
-    sprintf(fmt = "[%s](#%1$s)") |>
+  tmp <- keywords[first == l, c(keyword)] |>
+    unique()
+  
+  linker(tmp, tmp) |>
     cat(sep = ", ")
   
   cat("\n\n")
