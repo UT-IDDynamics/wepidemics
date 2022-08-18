@@ -44,12 +44,15 @@ menu_maker <- function(this = c("README.Rmd"), path = "", escape_bar = FALSE) {
   # Reaming to get the md
   names(yam) <- gsub("Rmd$", "md", names(yam))
   
-  res <- "\n"
+  res <- '\n<div align="center">'
   
   res <- paste0(res, Map(\(name., link.) {
-    sprintf("[**%s**](%s%s)", name., path, link.)
+    sprintf('<a style="font-weight:bold;" href="%s%s">%s<a>', path, link., name.)
   }, link. = names(yam), name. = sapply(yam, "[[", "title")) |>
     unlist() |> paste(collapse = ifelse(escape_bar, " \\| ", " | ")),  "\n")
+  
+  res <- paste0(res, '<p style="font-size:10px;font-weight:bold;">(hosted at <a href="https://github.com/UT-IDDynamics/wepidemics" target="_blank">github.com/UT-IDDynamics</a>)</p>\n')
+  res <- paste0(res, "</div>")
   
   cat(res)
   
