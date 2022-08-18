@@ -13,6 +13,7 @@
  
  
 **keywords:** [**`abm`**](../by-keyword.md#abm), [**`simulation`**](../by-keyword.md#simulation), [**`mcmc`**](../by-keyword.md#mcmc) 
+**Parameters:** [**`rt`**](../by-parameter.md#rt) 
 
 **software:**
  

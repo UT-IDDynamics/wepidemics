@@ -48,6 +48,17 @@ for (f in fns) {
     
   }
   
+  # Parameters
+  if (length(header$parameters)) {
+    
+    parameters <- tolower(header$parameters)
+    parameters <- linker(parameters, paste0("**`", parameters, "`**"), "../by-parameter.md") |>
+      paste(collapse = ", ")
+    
+    adder("**Parameters:**", parameters)
+    
+  }
+  
   # Software
   if (length(header$`software-package`)) {
     
@@ -56,6 +67,16 @@ for (f in fns) {
     for (s in header$`software-package`)
       adder(sprintf(" - [%s](%s) (%s)", s[2], s[3], s[1]))
 
+  }
+  
+  # Data sources
+  if (length(header$`data-source`)) {
+    
+    adder("\n**data:**\n")
+    
+    for (s in header$`data-source`)
+      adder(sprintf(" - %s [%1$s](%2$s)", s[1], s[2]))
+    
   }
   
   

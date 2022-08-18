@@ -14,6 +14,7 @@
 **doi:** [10.1371/journal.pcbi.1008409](https://doi.org/10.1371/journal.pcbi.1008409)
  
 **keywords:** [**`simulation`**](../by-keyword.md#simulation), [**`compartmental models`**](../by-keyword.md#compartmental-models), [**`bias`**](../by-keyword.md#bias), [**`estimation`**](../by-keyword.md#estimation) 
+**Parameters:** [**`rt`**](../by-parameter.md#rt) 
 
 **Links:**
  

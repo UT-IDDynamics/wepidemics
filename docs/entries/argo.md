@@ -19,6 +19,14 @@
  
  - [argo](https://cran.r-project.org/package=argo) (R) 
 
+**data:**
+ 
+ - Google Correlate [Google Correlate](http://www.google.com/trends/correlate) 
+ - Google Trends [Google Trends](http://www.google.com/trends) 
+ - Google Flu Trends [Google Flu Trends](http://www.google.org/flutrends/about) 
+ - CDC FluView Weekly Report National, Regional, and State/Jurisdiction Level Outpatient Illness and Viral Surveillance [CDC FluView Weekly Report National, Regional, and State/Jurisdiction Level Outpatient Illness and Viral Surveillance](http://gis.cdc.gov/grasp/fluview/fluportaldashboard.html) 
+ - CDD Weekly U.S. Influenza Surveillance Report [CDD Weekly U.S. Influenza Surveillance Report](https://www.cdc.gov/flu/weekly/) 
+
 
 ## Content
 

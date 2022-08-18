@@ -14,10 +14,16 @@
 **doi:** [10.1371/journal.pcbi.1003457](https://doi.org/10.1371/journal.pcbi.1003457)
  
 **keywords:** [**`importations`**](../by-keyword.md#importations), [**`mutation rate`**](../by-keyword.md#mutation-rate), [**`genomics`**](../by-keyword.md#genomics), [**`methods`**](../by-keyword.md#methods), [**`network`**](../by-keyword.md#network) 
+**Parameters:** [**`r0`**](../by-parameter.md#r0), [**`generation time`**](../by-parameter.md#generation-time) 
 
 **software:**
  
  - [outbreaker2](https://CRAN.R-project.org/package=outbreaker2) (R) 
+
+**data:**
+ 
+ - Comparative full-length genome sequence analysis of 14 SARS coronavirus isolates and common mutations associated with putative origins of infection [Comparative full-length genome sequence analysis of 14 SARS coronavirus isolates and common mutations associated with putative origins of infection](https://doi.org/10.1016/S0140-6736(03)13414-9) 
+ - Mutational dynamics of the SARS coronavirus in cell culture and human populations isolated in 2003 [Mutational dynamics of the SARS coronavirus in cell culture and human populations isolated in 2003](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-4-32) 
 
 
 ## Content
