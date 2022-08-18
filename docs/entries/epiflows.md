@@ -21,8 +21,8 @@
 
 **data:**
  
- - Guidance for health professionals on wild yellow fever (Brazil) [Guidance for health professionals on wild yellow fever (Brazil)](http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/leia-mais-o-ministerio/619-secretaria-svs/l1-svs/27300-febre-amarela-informacao-e-orientacao) 
- - Monitoring of the cases and deaths due to yellow fever in Brazil, update n. 43/2017 [Monitoring of the cases and deaths due to yellow fever in Brazil, update n. 43/2017](http://portalarquivos.saude.gov.br/images/pdf/2017/junho/02/COES-FEBRE-AMARELA---INFORME-43---Atualiza----o-em-31maio2017.pdf) 
+ - Guidance for health professionals on wild yellow fever (Brazil) [**(link)**](http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/leia-mais-o-ministerio/619-secretaria-svs/l1-svs/27300-febre-amarela-informacao-e-orientacao) 
+ - Monitoring of the cases and deaths due to yellow fever in Brazil, update n. 43/2017 [**(link)**](http://portalarquivos.saude.gov.br/images/pdf/2017/junho/02/COES-FEBRE-AMARELA---INFORME-43---Atualiza----o-em-31maio2017.pdf) 
 
 **Links:**
  

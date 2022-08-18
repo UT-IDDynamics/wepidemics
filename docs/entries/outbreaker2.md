@@ -22,8 +22,8 @@
 
 **data:**
  
- - Comparative full-length genome sequence analysis of 14 SARS coronavirus isolates and common mutations associated with putative origins of infection [Comparative full-length genome sequence analysis of 14 SARS coronavirus isolates and common mutations associated with putative origins of infection](https://doi.org/10.1016/S0140-6736(03)13414-9) 
- - Mutational dynamics of the SARS coronavirus in cell culture and human populations isolated in 2003 [Mutational dynamics of the SARS coronavirus in cell culture and human populations isolated in 2003](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-4-32) 
+ - Comparative full-length genome sequence analysis of 14 SARS coronavirus isolates and common mutations associated with putative origins of infection [**(link)**](https://doi.org/10.1016/S0140-6736(03)13414-9) 
+ - Mutational dynamics of the SARS coronavirus in cell culture and human populations isolated in 2003 [**(link)**](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-4-32) 
 
 
 ## Content

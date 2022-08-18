@@ -75,7 +75,7 @@ for (f in fns) {
     adder("\n**data:**\n")
     
     for (s in header$`data-source`)
-      adder(sprintf(" - %s [%1$s](%2$s)", s[1], s[2]))
+      adder(sprintf(" - %s [**(link)**](%2$s)", s[1], s[2]))
     
   }
   
