@@ -14,6 +14,8 @@ source("functions.R")
 menu_maker("")
 ```
 
+INDEX
+
 ```{r listing-reading}
 fns <- list.files("../data", full.names = TRUE) |> sort()
 fns <- fns[!grepl("README[.]md$", fns)]

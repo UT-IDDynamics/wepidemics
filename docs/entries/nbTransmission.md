@@ -3,7 +3,7 @@
 #  nbTransmission 
  
 
-[**By keywords**](../by-keyword.md) | [**By parameter**](../by-parameter.md) | [**Full table**](../full-table.md)
+[**By keywords**](../by-keyword.md) \| [**By parameter**](../by-parameter.md) \| [**Full table**](../full-table.md)
  
  
 **doi:** [10.1093/ije/dyaa031](https://doi.org/10.1093/ije/dyaa031)

@@ -29,7 +29,7 @@ for (f in fns) {
   
   # Title and menu
   adder("# ", null2empty(header$name), "\n")
-  adder(menu_maker(path = "../"),"\n")
+  adder(menu_maker(path = "../", escape_bar = TRUE),"\n")
   
   # Adding content -------------------------------------------------------------
   adder(sprintf("**doi:** [%s](https://doi.org/%s)\n", header$doi, header$doi))

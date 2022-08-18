@@ -3,7 +3,7 @@
 #  argo 
  
 
-[**By keywords**](../by-keyword.md) | [**By parameter**](../by-parameter.md) | [**Full table**](../full-table.md)
+[**By keywords**](../by-keyword.md) \| [**By parameter**](../by-parameter.md) \| [**Full table**](../full-table.md)
  
  
 **doi:** [doi.org/10.1073/pnas.1515373112](https://doi.org/doi.org/10.1073/pnas.1515373112)

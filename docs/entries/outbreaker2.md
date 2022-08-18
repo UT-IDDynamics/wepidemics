@@ -3,7 +3,7 @@
 #  outbreaker2 
  
 
-[**By keywords**](../by-keyword.md) | [**By parameter**](../by-parameter.md) | [**Full table**](../full-table.md)
+[**By keywords**](../by-keyword.md) \| [**By parameter**](../by-parameter.md) \| [**Full table**](../full-table.md)
  
  
 **doi:** [10.1371/journal.pcbi.1003457](https://doi.org/10.1371/journal.pcbi.1003457)

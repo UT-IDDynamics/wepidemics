@@ -20,6 +20,7 @@ fns <- fns[!grepl("README[.]md$", fns)]
 headers <- get_headers(fns)
 ```
 
+INDEX
 
 ```{r create-tables, results='asis'}
 tab <- lapply(names(headers), \(h) {

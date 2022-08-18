@@ -3,7 +3,7 @@
 #  epiflows 
  
 
-[**By keywords**](../by-keyword.md) | [**By parameter**](../by-parameter.md) | [**Full table**](../full-table.md)
+[**By keywords**](../by-keyword.md) \| [**By parameter**](../by-parameter.md) \| [**Full table**](../full-table.md)
  
  
 **doi:** [10.2807/1560-7917.ES.2017.22.28.30572](https://doi.org/10.2807/1560-7917.ES.2017.22.28.30572)
