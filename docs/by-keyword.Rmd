@@ -7,7 +7,7 @@ title: By keywords
 knitr::opts_chunk$set(echo = FALSE)
 library(yaml)
 library(data.table)
-source("docs/functions.R")
+source("functions.R")
 ```
 
 ```{r results='asis'}
