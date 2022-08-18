@@ -15,7 +15,13 @@ for (f in fns) {
   if (file.exists(f_path))
     file.remove(f_path)
   
-  adder <- function(...) cat(..., "\n", file = f_path, append = TRUE)
+  adder <- function(..., end_line = TRUE) {
+    cat(
+      ...,
+      ifelse(end_line, "\n", ""),
+      file = f_path, append = TRUE)
+  }
+  
   adder("<!--DO NOT EDIT BY HAND-->\n")
   
   # Getting the file headers
@@ -45,9 +51,11 @@ for (f in fns) {
     adder("**software:**\n")
     
     for (s in header$`software-package`)
-      adder(sprintf(" - [%s](%s) (%s)", s[2], s[3], s[1]))
-    
+      adder(sprintf(" - [%s](%s) (%s)", s[2], s[3], s[1]), end_line = FALSE)
+  
+    adder("\n\n")
   }
+  
   
   # Example papers
   if (length(header$`example-papers`)) {
@@ -55,7 +63,9 @@ for (f in fns) {
     adder("**Example papers:**\n")
     
     for (p in header$`example-papers`) 
-      adder(sprintf(" - [%s](%1$s)", p))
+      adder(sprintf(" - [%s](%1$s)", p), end_line = FALSE)
+    
+    adder("\n\n")
     
   }
   
@@ -65,8 +75,9 @@ for (f in fns) {
     adder("**Links:**\n")
     
     for (p in header$links) 
-      adder(sprintf(" - [%s](%1$s)", p))
+      adder(sprintf(" - [%s](%1$s)", p), end_line = FALSE)
     
+    adder("\n\n")
   }
   
   # Contents

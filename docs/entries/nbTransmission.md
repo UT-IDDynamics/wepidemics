@@ -13,11 +13,13 @@
 **software:**
  
  - [nbTransmission](https://CRAN.R-project.org/package=nbTransmission) (R) 
+
+ 
 **Links:**
  
- - [https://github.com/sarahleavitt/nbTransmission](https://github.com/sarahleavitt/nbTransmission) 
- - [https://github.com/sarahleavitt/nbPaper1](https://github.com/sarahleavitt/nbPaper1) 
- - [https://github.com/sarahleavitt/nbSimulation](https://github.com/sarahleavitt/nbSimulation) 
+ - [https://github.com/sarahleavitt/nbTransmission](https://github.com/sarahleavitt/nbTransmission)  - [https://github.com/sarahleavitt/nbPaper1](https://github.com/sarahleavitt/nbPaper1)  - [https://github.com/sarahleavitt/nbSimulation](https://github.com/sarahleavitt/nbSimulation) 
+
+ 
 
 
 ## Content

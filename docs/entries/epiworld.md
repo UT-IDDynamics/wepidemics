@@ -11,8 +11,9 @@
  
 **software:**
  
- - [epiworldR](https://github.com/UofUEpi/epiworldR) (R) 
- - [epiworld](https://github.com/UofUEpi/epiworld) (C++) 
+ - [epiworldR](https://github.com/UofUEpi/epiworldR) (R)  - [epiworld](https://github.com/UofUEpi/epiworld) (C++) 
+
+ 
 
 
 ## Content
