@@ -9,12 +9,10 @@
 **doi:** [doi.org/10.1073/pnas.1515373112](https://doi.org/doi.org/10.1073/pnas.1515373112)
  
 **keywords:** [**`web sources`**](../by-keyword.md#web-sources), [**`big-data`**](../by-keyword.md#big-data), [**`real-time`**](../by-keyword.md#real-time), [**`influenza`**](../by-keyword.md#influenza), [**`methods`**](../by-keyword.md#methods), [**`hmm`**](../by-keyword.md#hmm), [**`prediction`**](../by-keyword.md#prediction), [**`markov hidden models`**](../by-keyword.md#markov-hidden-models) 
- 
+
 **software:**
  
  - [argo](https://cran.r-project.org/package=argo) (R) 
-
- 
 
 
 ## Content

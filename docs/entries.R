@@ -41,43 +41,39 @@ for (f in fns) {
     keywords <- linker(keywords, paste0("**`", keywords, "`**"), "../by-keyword.md") |>
       paste(collapse = ", ")
     
-    adder("**keywords:**", keywords, "\n")
+    adder("**keywords:**", keywords)
     
   }
   
   # Software
   if (length(header$`software-package`)) {
     
-    adder("**software:**\n")
+    adder("\n**software:**\n")
     
     for (s in header$`software-package`)
-      adder(sprintf(" - [%s](%s) (%s)", s[2], s[3], s[1]), end_line = FALSE)
-  
-    adder("\n\n")
+      adder(sprintf(" - [%s](%s) (%s)", s[2], s[3], s[1]))
+
   }
   
   
   # Example papers
   if (length(header$`example-papers`)) {
     
-    adder("**Example papers:**\n")
+    adder("\n**Example papers:**\n")
     
     for (p in header$`example-papers`) 
-      adder(sprintf(" - [%s](%1$s)", p), end_line = FALSE)
-    
-    adder("\n\n")
+      adder(sprintf(" - [%s](%1$s)", p))
     
   }
   
   # Links
   if (length(header$links)) {
     
-    adder("**Links:**\n")
+    adder("\n**Links:**\n")
     
     for (p in header$links) 
-      adder(sprintf(" - [%s](%1$s)", p), end_line = FALSE)
+      adder(sprintf(" - [%s](%1$s)", p))
     
-    adder("\n\n")
   }
   
   # Contents

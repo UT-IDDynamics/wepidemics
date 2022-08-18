@@ -9,17 +9,14 @@
 **doi:** [10.2807/1560-7917.ES.2017.22.28.30572](https://doi.org/10.2807/1560-7917.ES.2017.22.28.30572)
  
 **keywords:** [**`prediction`**](../by-keyword.md#prediction), [**`visualization`**](../by-keyword.md#visualization), [**`flows`**](../by-keyword.md#flows), [**`diffusion`**](../by-keyword.md#diffusion), [**`exportations`**](../by-keyword.md#exportations), [**`importations`**](../by-keyword.md#importations) 
- 
+
 **software:**
  
  - [epiflows](https://github.com/reconhub/epiflows/) (R) 
 
- 
 **Links:**
  
  - [https://cran.r-project.org/package=epiflows](https://cran.r-project.org/package=epiflows) 
-
- 
 
 
 ## Content

@@ -9,12 +9,10 @@
 **doi:** [10.1371/journal.pcbi.1003457](https://doi.org/10.1371/journal.pcbi.1003457)
  
 **keywords:** [**`importations`**](../by-keyword.md#importations), [**`mutation rate`**](../by-keyword.md#mutation-rate), [**`genomics`**](../by-keyword.md#genomics), [**`methods`**](../by-keyword.md#methods), [**`network`**](../by-keyword.md#network) 
- 
+
 **software:**
  
  - [outbreaker2](https://CRAN.R-project.org/package=outbreaker2) (R) 
-
- 
 
 
 ## Content

@@ -32,7 +32,7 @@ linker <- function(f, txt = "link", file = "") {
   sprintf("[%s](%s#%s)", txt, file, f)
 }
 
-menu_maker <- function(this = c("README.Rmd"), path = "") {
+menu_maker <- function(this = c("README.Rmd"), path = "", escape_bar = FALSE) {
 
   # Listing files  
   files <- list.files(pattern = "[.]Rmd")
@@ -49,7 +49,7 @@ menu_maker <- function(this = c("README.Rmd"), path = "") {
   res <- paste0(res, Map(\(name., link.) {
     sprintf("[**%s**](%s%s)", name., path, link.)
   }, link. = names(yam), name. = sapply(yam, "[[", "title")) |>
-    unlist() |> paste(collapse = " | "),  "\n")
+    unlist() |> paste(collapse = ifelse(escape_bar, " \\| ", " | ")),  "\n")
   
   cat(res)
   
