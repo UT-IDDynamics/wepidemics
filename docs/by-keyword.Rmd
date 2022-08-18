@@ -22,7 +22,9 @@ headers <- get_headers(fns)
 
 
 ```{r create-tables, results='asis'}
-tab <- lapply(headers, \(f) {
+tab <- lapply(names(headers), \(h) {
+  
+  f        <- headers[[h]]
   
   title    <- f$`title-paper`
   software <- f$`software-package`
@@ -56,7 +58,7 @@ tab <- lapply(headers, \(f) {
   data.table(
     title    = paste(
       null2empty(title),
-      linker(title)
+      sprintf("[(**link**)](%s)", h)
       ),
     software = software,
     doi      = null2empty(doi),
@@ -65,7 +67,7 @@ tab <- lapply(headers, \(f) {
   
 }) |> rbindlist(fill = TRUE)
 
-
+tab$files <- names(headers)
 
 
 tab[, keywords := tolower(keywords)]
@@ -103,7 +105,12 @@ for (kw in sort(unique(keywords$keyword))) {
   entries <- tab[grepl(kw, keywords)]
   
   cat(
-    sprintf("%i. %s %s", 1:nrow(entries), entries$title, entries$software),
+    sprintf(
+      "%i. %s %s",
+      1:nrow(entries),
+      entries$title,
+      fifelse(entries$software == "", "", paste0("(*software*: ", entries$software, ")"))
+      ),
     sep = "\n"
   )
 

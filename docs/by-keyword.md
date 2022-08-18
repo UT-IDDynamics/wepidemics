@@ -44,207 +44,189 @@ By keywords
 ## abm
 
 1.  A Flexible and General Agent-Based Model Engine
-    [link](#a-flexible-and-general-agent-based-model-engine) [epiworldR
+    [(**link**)](../data/epiworld.md) (*software*: [epiworldR
     (R)](https://github.com/UofUEpi/epiworldR), [epiworld
-    (C++)](https://github.com/UofUEpi/epiworld)
+    (C++)](https://github.com/UofUEpi/epiworld))
 
 ## bias
 
 1.  Practical considerations for measuring the effective reproductive
-    number, Rt
-    [link](#practical-considerations-for-measuring-the-effective-reproductive-number-rt)
+    number, Rt [(**link**)](../data/effective-rep-number.md)
 
 ## big-data
 
 1.  Accurate estimation of influenza epidemics using Google search data
-    via ARGO
-    [link](#accurate-estimation-of-influenza-epidemics-using-google-search-data-via-argo)
-    [argo (R)](https://cran.r-project.org/package=argo)
+    via ARGO [(**link**)](../data/argo.md) (*software*: [argo
+    (R)](https://cran.r-project.org/package=argo))
 
 ## compartmental models
 
 1.  Practical considerations for measuring the effective reproductive
-    number, Rt
-    [link](#practical-considerations-for-measuring-the-effective-reproductive-number-rt)
+    number, Rt [(**link**)](../data/effective-rep-number.md)
 
 ## diffusion
 
 1.  International risk of yellow fever spread from the ongoing outbreak
     in Brazil, December 2016 to May 2017
-    [link](#international-risk-of-yellow-fever-spread-from-the-ongoing-outbreak-in-brazil-december-2016-to-may-2017)
-    [epiflows (R)](https://github.com/reconhub/epiflows/)
+    [(**link**)](../data/epiflows.md) (*software*: [epiflows
+    (R)](https://github.com/reconhub/epiflows/))
 
 ## estimation
 
 1.  Practical considerations for measuring the effective reproductive
-    number, Rt
-    [link](#practical-considerations-for-measuring-the-effective-reproductive-number-rt)
+    number, Rt [(**link**)](../data/effective-rep-number.md)
 2.  Estimating the relative probability of direct transmission between
-    infectious disease patients
-    [link](#estimating-the-relative-probability-of-direct-transmission-between-infectious-disease-patients-)
-    [nbTransmission
-    (R)](https://CRAN.R-project.org/package=nbTransmission)
+    infectious disease patients [(**link**)](../data/nbTransmission.md)
+    (*software*: [nbTransmission
+    (R)](https://CRAN.R-project.org/package=nbTransmission))
 
 ## exportations
 
 1.  International risk of yellow fever spread from the ongoing outbreak
     in Brazil, December 2016 to May 2017
-    [link](#international-risk-of-yellow-fever-spread-from-the-ongoing-outbreak-in-brazil-december-2016-to-may-2017)
-    [epiflows (R)](https://github.com/reconhub/epiflows/)
+    [(**link**)](../data/epiflows.md) (*software*: [epiflows
+    (R)](https://github.com/reconhub/epiflows/))
 
 ## flows
 
 1.  International risk of yellow fever spread from the ongoing outbreak
     in Brazil, December 2016 to May 2017
-    [link](#international-risk-of-yellow-fever-spread-from-the-ongoing-outbreak-in-brazil-december-2016-to-may-2017)
-    [epiflows (R)](https://github.com/reconhub/epiflows/)
+    [(**link**)](../data/epiflows.md) (*software*: [epiflows
+    (R)](https://github.com/reconhub/epiflows/))
 
 ## genomics
 
 1.  Bayesian Reconstruction of Disease Outbreaks by Combining
-    Epidemiologic and Genomic Data
-    [link](#bayesian-reconstruction-of-disease-outbreaks-by-combining-epidemiologic-and-genomic-data)
-    [outbreaker2 (R)](https://CRAN.R-project.org/package=outbreaker2)
+    Epidemiologic and Genomic Data [(**link**)](../data/outbreaker2.md)
+    (*software*: [outbreaker2
+    (R)](https://CRAN.R-project.org/package=outbreaker2))
 
 ## hmm
 
 1.  Accurate estimation of influenza epidemics using Google search data
-    via ARGO
-    [link](#accurate-estimation-of-influenza-epidemics-using-google-search-data-via-argo)
-    [argo (R)](https://cran.r-project.org/package=argo)
+    via ARGO [(**link**)](../data/argo.md) (*software*: [argo
+    (R)](https://cran.r-project.org/package=argo))
 
 ## importations
 
 1.  International risk of yellow fever spread from the ongoing outbreak
     in Brazil, December 2016 to May 2017
-    [link](#international-risk-of-yellow-fever-spread-from-the-ongoing-outbreak-in-brazil-december-2016-to-may-2017)
-    [epiflows (R)](https://github.com/reconhub/epiflows/)
+    [(**link**)](../data/epiflows.md) (*software*: [epiflows
+    (R)](https://github.com/reconhub/epiflows/))
 2.  Bayesian Reconstruction of Disease Outbreaks by Combining
-    Epidemiologic and Genomic Data
-    [link](#bayesian-reconstruction-of-disease-outbreaks-by-combining-epidemiologic-and-genomic-data)
-    [outbreaker2 (R)](https://CRAN.R-project.org/package=outbreaker2)
+    Epidemiologic and Genomic Data [(**link**)](../data/outbreaker2.md)
+    (*software*: [outbreaker2
+    (R)](https://CRAN.R-project.org/package=outbreaker2))
 
 ## influenza
 
 1.  Accurate estimation of influenza epidemics using Google search data
-    via ARGO
-    [link](#accurate-estimation-of-influenza-epidemics-using-google-search-data-via-argo)
-    [argo (R)](https://cran.r-project.org/package=argo)
+    via ARGO [(**link**)](../data/argo.md) (*software*: [argo
+    (R)](https://cran.r-project.org/package=argo))
 
 ## markov hidden models
 
 1.  Accurate estimation of influenza epidemics using Google search data
-    via ARGO
-    [link](#accurate-estimation-of-influenza-epidemics-using-google-search-data-via-argo)
-    [argo (R)](https://cran.r-project.org/package=argo)
+    via ARGO [(**link**)](../data/argo.md) (*software*: [argo
+    (R)](https://cran.r-project.org/package=argo))
 
 ## mcmc
 
 1.  A Flexible and General Agent-Based Model Engine
-    [link](#a-flexible-and-general-agent-based-model-engine) [epiworldR
+    [(**link**)](../data/epiworld.md) (*software*: [epiworldR
     (R)](https://github.com/UofUEpi/epiworldR), [epiworld
-    (C++)](https://github.com/UofUEpi/epiworld)
+    (C++)](https://github.com/UofUEpi/epiworld))
 
 ## methods
 
 1.  Accurate estimation of influenza epidemics using Google search data
-    via ARGO
-    [link](#accurate-estimation-of-influenza-epidemics-using-google-search-data-via-argo)
-    [argo (R)](https://cran.r-project.org/package=argo)
+    via ARGO [(**link**)](../data/argo.md) (*software*: [argo
+    (R)](https://cran.r-project.org/package=argo))
 2.  Estimating the relative probability of direct transmission between
-    infectious disease patients
-    [link](#estimating-the-relative-probability-of-direct-transmission-between-infectious-disease-patients-)
-    [nbTransmission
-    (R)](https://CRAN.R-project.org/package=nbTransmission)
+    infectious disease patients [(**link**)](../data/nbTransmission.md)
+    (*software*: [nbTransmission
+    (R)](https://CRAN.R-project.org/package=nbTransmission))
 3.  Bayesian Reconstruction of Disease Outbreaks by Combining
-    Epidemiologic and Genomic Data
-    [link](#bayesian-reconstruction-of-disease-outbreaks-by-combining-epidemiologic-and-genomic-data)
-    [outbreaker2 (R)](https://CRAN.R-project.org/package=outbreaker2)
+    Epidemiologic and Genomic Data [(**link**)](../data/outbreaker2.md)
+    (*software*: [outbreaker2
+    (R)](https://CRAN.R-project.org/package=outbreaker2))
 
 ## mutation rate
 
 1.  Bayesian Reconstruction of Disease Outbreaks by Combining
-    Epidemiologic and Genomic Data
-    [link](#bayesian-reconstruction-of-disease-outbreaks-by-combining-epidemiologic-and-genomic-data)
-    [outbreaker2 (R)](https://CRAN.R-project.org/package=outbreaker2)
+    Epidemiologic and Genomic Data [(**link**)](../data/outbreaker2.md)
+    (*software*: [outbreaker2
+    (R)](https://CRAN.R-project.org/package=outbreaker2))
 
 ## naive bayes
 
 1.  Estimating the relative probability of direct transmission between
-    infectious disease patients
-    [link](#estimating-the-relative-probability-of-direct-transmission-between-infectious-disease-patients-)
-    [nbTransmission
-    (R)](https://CRAN.R-project.org/package=nbTransmission)
+    infectious disease patients [(**link**)](../data/nbTransmission.md)
+    (*software*: [nbTransmission
+    (R)](https://CRAN.R-project.org/package=nbTransmission))
 
 ## network
 
 1.  Bayesian Reconstruction of Disease Outbreaks by Combining
-    Epidemiologic and Genomic Data
-    [link](#bayesian-reconstruction-of-disease-outbreaks-by-combining-epidemiologic-and-genomic-data)
-    [outbreaker2 (R)](https://CRAN.R-project.org/package=outbreaker2)
+    Epidemiologic and Genomic Data [(**link**)](../data/outbreaker2.md)
+    (*software*: [outbreaker2
+    (R)](https://CRAN.R-project.org/package=outbreaker2))
 
 ## prediction
 
 1.  Accurate estimation of influenza epidemics using Google search data
-    via ARGO
-    [link](#accurate-estimation-of-influenza-epidemics-using-google-search-data-via-argo)
-    [argo (R)](https://cran.r-project.org/package=argo)
+    via ARGO [(**link**)](../data/argo.md) (*software*: [argo
+    (R)](https://cran.r-project.org/package=argo))
 2.  International risk of yellow fever spread from the ongoing outbreak
     in Brazil, December 2016 to May 2017
-    [link](#international-risk-of-yellow-fever-spread-from-the-ongoing-outbreak-in-brazil-december-2016-to-may-2017)
-    [epiflows (R)](https://github.com/reconhub/epiflows/)
+    [(**link**)](../data/epiflows.md) (*software*: [epiflows
+    (R)](https://github.com/reconhub/epiflows/))
 
 ## real-time
 
 1.  Accurate estimation of influenza epidemics using Google search data
-    via ARGO
-    [link](#accurate-estimation-of-influenza-epidemics-using-google-search-data-via-argo)
-    [argo (R)](https://cran.r-project.org/package=argo)
+    via ARGO [(**link**)](../data/argo.md) (*software*: [argo
+    (R)](https://cran.r-project.org/package=argo))
 
 ## simulation
 
 1.  Practical considerations for measuring the effective reproductive
-    number, Rt
-    [link](#practical-considerations-for-measuring-the-effective-reproductive-number-rt)
+    number, Rt [(**link**)](../data/effective-rep-number.md)
 2.  A Flexible and General Agent-Based Model Engine
-    [link](#a-flexible-and-general-agent-based-model-engine) [epiworldR
+    [(**link**)](../data/epiworld.md) (*software*: [epiworldR
     (R)](https://github.com/UofUEpi/epiworldR), [epiworld
-    (C++)](https://github.com/UofUEpi/epiworld)
+    (C++)](https://github.com/UofUEpi/epiworld))
 
 ## snp
 
 1.  Estimating the relative probability of direct transmission between
-    infectious disease patients
-    [link](#estimating-the-relative-probability-of-direct-transmission-between-infectious-disease-patients-)
-    [nbTransmission
-    (R)](https://CRAN.R-project.org/package=nbTransmission)
+    infectious disease patients [(**link**)](../data/nbTransmission.md)
+    (*software*: [nbTransmission
+    (R)](https://CRAN.R-project.org/package=nbTransmission))
 
 ## transmission probability
 
 1.  Estimating the relative probability of direct transmission between
-    infectious disease patients
-    [link](#estimating-the-relative-probability-of-direct-transmission-between-infectious-disease-patients-)
-    [nbTransmission
-    (R)](https://CRAN.R-project.org/package=nbTransmission)
+    infectious disease patients [(**link**)](../data/nbTransmission.md)
+    (*software*: [nbTransmission
+    (R)](https://CRAN.R-project.org/package=nbTransmission))
 
 ## visualization
 
 1.  International risk of yellow fever spread from the ongoing outbreak
     in Brazil, December 2016 to May 2017
-    [link](#international-risk-of-yellow-fever-spread-from-the-ongoing-outbreak-in-brazil-december-2016-to-may-2017)
-    [epiflows (R)](https://github.com/reconhub/epiflows/)
+    [(**link**)](../data/epiflows.md) (*software*: [epiflows
+    (R)](https://github.com/reconhub/epiflows/))
 
 ## web sources
 
 1.  Accurate estimation of influenza epidemics using Google search data
-    via ARGO
-    [link](#accurate-estimation-of-influenza-epidemics-using-google-search-data-via-argo)
-    [argo (R)](https://cran.r-project.org/package=argo)
+    via ARGO [(**link**)](../data/argo.md) (*software*: [argo
+    (R)](https://cran.r-project.org/package=argo))
 
 ## whole genome sequence
 
 1.  Estimating the relative probability of direct transmission between
-    infectious disease patients
-    [link](#estimating-the-relative-probability-of-direct-transmission-between-infectious-disease-patients-)
-    [nbTransmission
-    (R)](https://CRAN.R-project.org/package=nbTransmission)
+    infectious disease patients [(**link**)](../data/nbTransmission.md)
+    (*software*: [nbTransmission
+    (R)](https://CRAN.R-project.org/package=nbTransmission))

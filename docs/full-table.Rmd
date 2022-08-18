@@ -87,7 +87,7 @@ for (i in seq_along(fns)) {
   ids <- which(grepl("^---\\s*$", f))[1:2]
   cat(f[-(ids[1]:ids[2])], sep = "\n")
   
-  cat("\n([go back](#general-table))")
+  cat("\n([go back](#general-table)) ")
   cat(sprintf("([more](%s))", fns[i]))
 }
 ```
