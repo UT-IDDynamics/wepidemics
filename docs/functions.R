@@ -7,6 +7,16 @@ get_headers <- function(fns) {
   }) |> setNames(fns)
 }
 
+get_content <- function(fns) {
+  lapply(fns, \(f) {
+    
+    f <- readLines(f, warn = FALSE)
+    ids <- which(grepl("^---\\s*$", f))[1:2]
+    f[-(1:ids[2])]
+    
+  }) |> setNames(fns)
+}
+
 #' Takes a null value and returns `""`
 null2empty <- function(x) {
   if (length(x))
@@ -22,7 +32,7 @@ linker <- function(f, txt = "link", file = "") {
   sprintf("[%s](%s#%s)", txt, file, f)
 }
 
-menu_maker <- function(this) {
+menu_maker <- function(this = c("README.Rmd"), path = "") {
 
   # Listing files  
   files <- list.files(pattern = "[.]Rmd")
@@ -34,14 +44,16 @@ menu_maker <- function(this) {
   # Reaming to get the md
   names(yam) <- gsub("Rmd$", "md", names(yam))
   
-  cat("\n")
+  res <- "\n"
   
-  Map(\(name., link.) {
-    sprintf("[**%s**](%s)", name., link.)
+  res <- paste0(res, Map(\(name., link.) {
+    sprintf("[**%s**](%s%s)", name., path, link.)
   }, link. = names(yam), name. = sapply(yam, "[[", "title")) |>
-    unlist() |> cat(sep = " | ")
+    unlist() |> paste(collapse = " | "),  "\n")
   
-  cat("\n")
+  cat(res)
+  
+  invisible(res)
   
   
 }

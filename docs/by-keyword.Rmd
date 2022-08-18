@@ -58,7 +58,7 @@ tab <- lapply(names(headers), \(h) {
   data.table(
     title    = paste(
       null2empty(title),
-      sprintf("[(**link**)](%s)", h)
+      sprintf("[(**link**)](%s)", gsub("[.]{2}/data", "entries", h))
       ),
     software = software,
     doi      = null2empty(doi),

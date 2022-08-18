@@ -32,7 +32,7 @@ making it a potentially powerful tool that can be used for real-time
 tracking of other social events at multiple temporal and spatial
 resolutions.
 
-([go back](#general-table))([more](../data/argo.md))
+([go back](#general-table)) ([more](entries/argo.md))
 
 ## Practical considerations for measuring the effective reproductive number, Rt
 
@@ -45,7 +45,7 @@ near-real-time, and correctly inferring the timing of changes in Rt, is
 challenging. Here, we provide an overview of challenges and best
 practices for accurate and timely Rt estimation.”
 
-([go back](#general-table))([more](../data/effective-rep-number.md))
+([go back](#general-table)) ([more](entries/effective-rep-number.md))
 
 ## International risk of yellow fever spread from the ongoing outbreak in Brazil, December 2016 to May 2017
 
@@ -54,7 +54,7 @@ infectious diseases based on flows between geographical locations, e.g.,
 countries. epiflows provides functions for calculating spread estimates,
 handling flow data, and visualization.
 
-([go back](#general-table))([more](../data/epiflows.md))
+([go back](#general-table)) ([more](entries/epiflows.md))
 
 ## A Flexible and General Agent-Based Model Engine
 
@@ -63,7 +63,7 @@ building framework. It can be used for estimating parameters, forward
 simulation, and policy evaluation. The C++ library is also implemented
 in R.
 
-([go back](#general-table))([more](../data/epiworld.md))
+([go back](#general-table)) ([more](entries/epiworld.md))
 
 ## Estimating the relative probability of direct transmission between infectious disease patients
 
@@ -91,7 +91,7 @@ probabilities can be used to estimate the average effective reproductive
 number and apply our method to a tuberculosis outbreak in Hamburg,
 Germany.
 
-([go back](#general-table))([more](../data/nbTransmission.md))
+([go back](#general-table)) ([more](entries/nbTransmission.md))
 
 ## Bayesian Reconstruction of Disease Outbreaks by Combining Epidemiologic and Genomic Data
 
@@ -112,4 +112,4 @@ Severe Acute Respiratory Syndrome (SARS). Our approach is applicable to
 a wide range of diseases and available in a free software package called
 outbreaker.
 
-([go back](#general-table))([more](../data/outbreaker2.md))
+([go back](#general-table)) ([more](entries/outbreaker2.md))
