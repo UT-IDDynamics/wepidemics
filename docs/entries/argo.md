@@ -3,9 +3,11 @@
 #  argo 
  
 
-<div align="center"><a style="font-weight:bold;" href="../by-keyword.md">By keywords<a> \| <a style="font-weight:bold;" href="../by-parameter.md">By parameter<a> \| <a style="font-weight:bold;" href="../full-table.md">Full table<a>
+[**By keywords**](../by-keyword.md) \| [**By parameter**](../by-parameter.md) \| [**Full table**](../full-table.md)
 <p style="font-size:10px;font-weight:bold;">(hosted at <a href="https://github.com/UT-IDDynamics/wepidemics" target="_blank">github.com/UT-IDDynamics</a>)</p>
-</div> 
+
+---
+ 
  
 **title of the paper:** Accurate estimation of influenza epidemics using Google search data via ARGO
  
