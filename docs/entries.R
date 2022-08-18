@@ -28,7 +28,7 @@ for (f in fns) {
   if (length(header$keywords)) {
     
     keywords <- tolower(header$keywords)
-    keywords <- linker(keywords, paste0("**`", keywords, "`**"), "by-keyword.md") |>
+    keywords <- linker(keywords, paste0("**`", keywords, "`**"), "../by-keyword.md") |>
       paste(collapse = ", ")
     
     adder("**keywords:**", keywords, "\n")
