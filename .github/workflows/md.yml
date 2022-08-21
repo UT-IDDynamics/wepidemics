@@ -20,7 +20,8 @@ jobs:
 
       - name: Compile
         run: |
-          docker run -i --rm -v$(pwd):/home/ -w/home/docs \
+          cd docs
+          docker run -i --rm -v$(pwd)/../:/home/ -w/home/docs \
             gvegayon/wepidemics:latest make
 
 
