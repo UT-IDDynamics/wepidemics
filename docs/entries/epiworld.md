@@ -25,7 +25,7 @@
 
 ## Content
 
-  Epiworld is a C++ template library that implements a flexible ABM building framework. It can be used for estimating parameters, forward simulation, and policy evaluation. The C++ library is also implemented in R.  
+  Epiworld is a C++ template library that implements a flexible ABM building framework. It can be used for estimating parameters, forward simulation, and policy evaluation. The C++ library is also implemented in the R programming language.  
 
 
  **original entry:**  [https://github.com/UT-IDDynamics/wepidemics/blob/main/data/epiworld.md](https://github.com/UT-IDDynamics/wepidemics/blob/main/data/epiworld.md) 
