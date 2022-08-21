@@ -1,4 +1,9 @@
-source("docs/functions.R")
+
+if (!file.exists("docs/functions.R")) {
+    source("functions.R")
+} else
+  source("docs/functions.R")
+
 
 fns <- list.files("data", full.names = TRUE) |> sort()
 fns <- fns[!grepl("README[.]md$", fns)]
