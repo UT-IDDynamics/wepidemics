@@ -11,19 +11,20 @@ on:
 jobs:
   build: 
     runs-on: Ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      cntr: gvegayon/wepidemics:latest
 
     steps:
       - uses: actions/checkout@v2
 
       - name: Container
-        run: docker pull gvegayon/wepidemics:latest
+        run: docker pull ${cntr}
 
       - name: Compile
         run: |
           cd docs
-          docker run -i --rm -v$(pwd)/../:/home/ -w/home/docs \
-            gvegayon/wepidemics:latest make
-
+          docker run -i --rm -v$(pwd)/../:/home/ -w/home/docs ${cntr} make
 
       - name: Commit results
         run: |
