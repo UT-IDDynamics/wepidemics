@@ -1,14 +1,17 @@
 By keywords
 ================
 
-[**By keywords**](by-keyword.md) \| [**By parameter**](by-parameter.md)
-\| [**Full table**](full-table.md)
+[**By keywords**](by-keyword.md) | [**By parameter**](by-parameter.md) |
+[**Full table**](full-table.md)
+
 <p style="font-size:10px;font-weight:bold;">
+
 (hosted at
 <a href="https://github.com/UT-IDDynamics/wepidemics" target="_blank">github.com/UT-IDDynamics</a>)
+
 </p>
 
-------------------------------------------------------------------------
+-----
 
 INDEX
 
@@ -45,8 +48,8 @@ INDEX
 
 **V** [`visualization`](#visualization)
 
-**W** [`web sources`](#web-sources),
-[`whole genome sequence`](#whole-genome-sequence)
+**W** [`web sources`](#web-sources), [`whole genome
+sequence`](#whole-genome-sequence)
 
 # Details
 
