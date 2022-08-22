@@ -1,23 +1,21 @@
 Full table
 ================
 
-[**By keywords**](by-keyword.md) | [**By parameter**](by-parameter.md) |
-[**Full table**](full-table.md)
-
+[**By keywords**](by-keyword.md) \| [**By parameter**](by-parameter.md)
+\| [**Full table**](full-table.md)
 <p style="font-size:10px;font-weight:bold;">
-
 (hosted at
 <a href="https://github.com/UT-IDDynamics/wepidemics" target="_blank">github.com/UT-IDDynamics</a>)
-
 </p>
 
------
+------------------------------------------------------------------------
 
 | title                                                                                                                                                                                                                       | software                                                                                                     | doi                                                                                            | keywords                                                                                                                                                                                                                                                                                                                                                                 |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Accurate estimation of influenza epidemics using Google search data via ARGO ([link](#accurate-estimation-of-influenza-epidemics-using-google-search-data-via-argo))                                                        | [argo (R)](https://cran.r-project.org/package=argo)                                                          | [doi.org/10.1073/pnas.1515373112](https://doi.org/doi.org/10.1073/pnas.1515373112)             | [**`web sources`**](by-keyword.md#web-sources), [**`big-data`**](by-keyword.md#big-data), [**`real-time`**](by-keyword.md#real-time), [**`influenza`**](by-keyword.md#influenza), [**`methods`**](by-keyword.md#methods), [**`hmm`**](by-keyword.md#hmm), [**`prediction`**](by-keyword.md#prediction), [**`markov hidden models`**](by-keyword.md#markov-hidden-models) |
 | Practical considerations for measuring the effective reproductive number, Rt ([link](#practical-considerations-for-measuring-the-effective-reproductive-number-rt))                                                         |                                                                                                              | [10.1371/journal.pcbi.1008409](https://doi.org/10.1371/journal.pcbi.1008409)                   | [**`simulation`**](by-keyword.md#simulation), [**`compartmental models`**](by-keyword.md#compartmental-models), [**`bias`**](by-keyword.md#bias), [**`estimation`**](by-keyword.md#estimation)                                                                                                                                                                           |
 | International risk of yellow fever spread from the ongoing outbreak in Brazil, December 2016 to May 2017 ([link](#international-risk-of-yellow-fever-spread-from-the-ongoing-outbreak-in-brazil-december-2016-to-may-2017)) | [epiflows (R)](https://github.com/reconhub/epiflows/)                                                        | [10.2807/1560-7917.ES.2017.22.28.30572](https://doi.org/10.2807/1560-7917.ES.2017.22.28.30572) | [**`prediction`**](by-keyword.md#prediction), [**`visualization`**](by-keyword.md#visualization), [**`flows`**](by-keyword.md#flows), [**`diffusion`**](by-keyword.md#diffusion), [**`exportations`**](by-keyword.md#exportations), [**`importations`**](by-keyword.md#importations)                                                                                     |
+| EpiModel: An R Package for Mathematical Modeling of Infectious Disease over Networks ([link](#epimodel-an-r-package-for-mathematical-modeling-of-infectious-disease-over-networks))                                         | [EpiModel (R)](https://cran.r-project.org/package=EpiModel)                                                  | [10.18637/jss.v084.i08](https://doi.org/10.18637/jss.v084.i08)                                 | [**`abm`**](by-keyword.md#abm), [**`networks`**](by-keyword.md#networks), [**`sna`**](by-keyword.md#sna), [**`ergm`**](by-keyword.md#ergm)                                                                                                                                                                                                                               |
 | A Flexible and General Agent-Based Model Engine ([link](#a-flexible-and-general-agent-based-model-engine))                                                                                                                  | [epiworldR (R)](https://github.com/UofUEpi/epiworldR), [epiworld (C++)](https://github.com/UofUEpi/epiworld) |                                                                                                | [**`abm`**](by-keyword.md#abm), [**`simulation`**](by-keyword.md#simulation), [**`mcmc`**](by-keyword.md#mcmc)                                                                                                                                                                                                                                                           |
 | Estimating the relative probability of direct transmission between infectious disease patients ([link](#estimating-the-relative-probability-of-direct-transmission-between-infectious-disease-patients-))                   | [nbTransmission (R)](https://CRAN.R-project.org/package=nbTransmission)                                      | [10.1093/ije/dyaa031](https://doi.org/10.1093/ije/dyaa031)                                     | [**`naive bayes`**](by-keyword.md#naive-bayes), [**`estimation`**](by-keyword.md#estimation), [**`methods`**](by-keyword.md#methods), [**`transmission probability`**](by-keyword.md#transmission-probability), [**`snp`**](by-keyword.md#snp), [**`whole genome sequence`**](by-keyword.md#whole-genome-sequence)                                                       |
 | Bayesian Reconstruction of Disease Outbreaks by Combining Epidemiologic and Genomic Data ([link](#bayesian-reconstruction-of-disease-outbreaks-by-combining-epidemiologic-and-genomic-data))                                | [outbreaker2 (R)](https://CRAN.R-project.org/package=outbreaker2)                                            | [10.1371/journal.pcbi.1003457](https://doi.org/10.1371/journal.pcbi.1003457)                   | [**`importations`**](by-keyword.md#importations), [**`mutation rate`**](by-keyword.md#mutation-rate), [**`genomics`**](by-keyword.md#genomics), [**`methods`**](by-keyword.md#methods), [**`network`**](by-keyword.md#network)                                                                                                                                           |
@@ -66,12 +64,32 @@ handling flow data, and visualization.
 
 ([go back](#general-table)) ([more](entries/epiflows.md))
 
+## EpiModel: An R Package for Mathematical Modeling of Infectious Disease over Networks
+
+From the abstract:
+
+> Package EpiModel provides tools for building, simulating, and
+> analyzing mathematical models for the population dynamics of
+> infectious disease transmission in R. Several classes of models are
+> included, but the unique contribution of this software package is a
+> general stochastic framework for modeling the spread of epidemics on
+> networks. EpiModel integrates recent advances in statistical methods
+> for network analysis (temporal exponential random graph models) that
+> allow the epidemic modeling to be grounded in empirical data on
+> contacts that can spread infection. This article provides an overview
+> of both the modeling tools built into EpiModel, designed to facilitate
+> learning for students new to modeling, and the application programming
+> interface for extending package EpiModel, designed to facilitate the
+> exploration of novel research questions for advanced modelers.
+
+([go back](#general-table)) ([more](entries/epimodel.md))
+
 ## A Flexible and General Agent-Based Model Engine
 
 Epiworld is a C++ template library that implements a flexible ABM
 building framework. It can be used for estimating parameters, forward
 simulation, and policy evaluation. The C++ library is also implemented
-in R.
+in the R programming language.
 
 ([go back](#general-table)) ([more](entries/epiworld.md))
 

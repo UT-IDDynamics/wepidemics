@@ -1,17 +1,14 @@
 By keywords
 ================
 
-[**By keywords**](by-keyword.md) | [**By parameter**](by-parameter.md) |
-[**Full table**](full-table.md)
-
+[**By keywords**](by-keyword.md) \| [**By parameter**](by-parameter.md)
+\| [**Full table**](full-table.md)
 <p style="font-size:10px;font-weight:bold;">
-
 (hosted at
 <a href="https://github.com/UT-IDDynamics/wepidemics" target="_blank">github.com/UT-IDDynamics</a>)
-
 </p>
 
------
+------------------------------------------------------------------------
 
 INDEX
 
@@ -23,7 +20,8 @@ INDEX
 
 **D** [`diffusion`](#diffusion)
 
-**E** [`estimation`](#estimation), [`exportations`](#exportations)
+**E** [`ergm`](#ergm), [`estimation`](#estimation),
+[`exportations`](#exportations)
 
 **F** [`flows`](#flows)
 
@@ -36,26 +34,30 @@ INDEX
 **M** [`markov hidden models`](#markov-hidden-models), [`mcmc`](#mcmc),
 [`methods`](#methods), [`mutation rate`](#mutation-rate)
 
-**N** [`naive bayes`](#naive-bayes), [`network`](#network)
+**N** [`naive bayes`](#naive-bayes), [`network`](#network),
+[`networks`](#networks)
 
 **P** [`prediction`](#prediction)
 
 **R** [`real-time`](#real-time)
 
-**S** [`simulation`](#simulation), [`snp`](#snp)
+**S** [`simulation`](#simulation), [`sna`](#sna), [`snp`](#snp)
 
 **T** [`transmission probability`](#transmission-probability)
 
 **V** [`visualization`](#visualization)
 
-**W** [`web sources`](#web-sources), [`whole genome
-sequence`](#whole-genome-sequence)
+**W** [`web sources`](#web-sources),
+[`whole genome sequence`](#whole-genome-sequence)
 
 # Details
 
 ## abm
 
-1.  A Flexible and General Agent-Based Model Engine
+1.  EpiModel: An R Package for Mathematical Modeling of Infectious
+    Disease over Networks [(**link**)](entries/epimodel.md) (*software*:
+    [EpiModel (R)](https://cran.r-project.org/package=EpiModel))
+2.  A Flexible and General Agent-Based Model Engine
     [(**link**)](entries/epiworld.md) (*software*: [epiworldR
     (R)](https://github.com/UofUEpi/epiworldR), [epiworld
     (C++)](https://github.com/UofUEpi/epiworld))
@@ -82,6 +84,12 @@ sequence`](#whole-genome-sequence)
     in Brazil, December 2016 to May 2017
     [(**link**)](entries/epiflows.md) (*software*: [epiflows
     (R)](https://github.com/reconhub/epiflows/))
+
+## ergm
+
+1.  EpiModel: An R Package for Mathematical Modeling of Infectious
+    Disease over Networks [(**link**)](entries/epimodel.md) (*software*:
+    [EpiModel (R)](https://cran.r-project.org/package=EpiModel))
 
 ## estimation
 
@@ -184,6 +192,12 @@ sequence`](#whole-genome-sequence)
     (*software*: [outbreaker2
     (R)](https://CRAN.R-project.org/package=outbreaker2))
 
+## networks
+
+1.  EpiModel: An R Package for Mathematical Modeling of Infectious
+    Disease over Networks [(**link**)](entries/epimodel.md) (*software*:
+    [EpiModel (R)](https://cran.r-project.org/package=EpiModel))
+
 ## prediction
 
 1.  Accurate estimation of influenza epidemics using Google search data
@@ -208,6 +222,12 @@ sequence`](#whole-genome-sequence)
     [(**link**)](entries/epiworld.md) (*software*: [epiworldR
     (R)](https://github.com/UofUEpi/epiworldR), [epiworld
     (C++)](https://github.com/UofUEpi/epiworld))
+
+## sna
+
+1.  EpiModel: An R Package for Mathematical Modeling of Infectious
+    Disease over Networks [(**link**)](entries/epimodel.md) (*software*:
+    [EpiModel (R)](https://cran.r-project.org/package=EpiModel))
 
 ## snp
 

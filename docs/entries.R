@@ -24,7 +24,8 @@ for (f in fns) {
     cat(
       ...,
       ifelse(end_line, "\n", ""),
-      file = f_path, append = TRUE)
+      file = f_path, append = TRUE
+    )
   }
   
   adder("<!--DO NOT EDIT BY HAND-->\n")
@@ -106,7 +107,7 @@ for (f in fns) {
   }
   
   # Contents
-  adder("\n\n## Content\n\n", get_content(f)[[1]])
+  adder("\n\n## Content\n\n", get_content(f)[[1]], sep = "\n")
   
   # Link to the original
   adder(
