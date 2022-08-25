@@ -3,8 +3,8 @@ name:
 doi: 10.12688/wellcomeopenres.15842.3
 title-paper: "Estimating the overdispersion in COVID-19 transmission using outbreak sizes outside China"
 software-package:
-  - [R, COVID19_clustersize, https://github.com/akira-endo/COVID19_clustersize]
-  - [Python, COVID19_clustersize, https://github.com/akira-endo/COVID19_clustersize]
+  - [R, "COVID19_clustersize", https://github.com/akira-endo/COVID19_clustersize]
+  - [Python, "COVID19_clustersize", https://github.com/akira-endo/COVID19_clustersize]
 parameters:
   - R0
   - dispersion
@@ -16,7 +16,7 @@ keywords:
   - Branching process
 software-only: no
 links:
-- https://doi.org/10.12688/wellcomeopenres.15842.3
+  - https://doi.org/10.12688/wellcomeopenres.15842.3
 ---
 
 From the paper: 
