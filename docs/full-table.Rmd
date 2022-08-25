@@ -7,7 +7,10 @@ title: Full table
 knitr::opts_chunk$set(echo = FALSE)
 library(yaml)
 library(data.table)
-source("functions.R")
+if (file.exists("functions.R")) {
+  source("functions.R")
+} else
+  source("docs/functions.R")
 ```
 
 ```{r results='asis'}
@@ -56,10 +59,7 @@ tab <- lapply(headers, \(f) {
   
   # Putting all together
   data.table(
-    title    = paste0(
-      null2empty(title),
-      " (", linker(title), ") "
-      ),
+    title    = null2empty(title),
     software = software,
     doi      = null2empty(doi),
     keywords = keywords
@@ -67,31 +67,15 @@ tab <- lapply(headers, \(f) {
   
 }) |> rbindlist(fill = TRUE)
 
+# Adding a link
+tab[, title := sprintf(
+  "%s (**[link](entries/%s)**)",
+  title,
+  gsub("../data/", "", names(headers))
+  )]
+
 tab[, keywords := tolower(keywords)]
 
 tab |> knitr::kable(row.names = FALSE)
-```
-
-# Details
-
-```{r printer, results='asis'}
-for (i in seq_along(fns)) {
-  
-  cat("\n\n## ")
-  cat(headers[[i]]$`title-paper`, "\n\n")
-  cat("\n")
-  
-  # Processing the text
-  f <- readLines(fns[i], warn = FALSE)
-  
-  ids <- which(grepl("^---\\s*$", f))[1:2]
-  cat(f[-(ids[1]:ids[2])], sep = "\n")
-  
-  cat("\n([go back](#general-table)) ")
-  cat(sprintf(
-    "([more](%s))",
-    gsub("[.]{2}/data", "entries", fns[i])
-    ))
-}
 ```
 

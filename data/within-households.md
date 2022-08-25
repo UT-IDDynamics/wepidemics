@@ -1,7 +1,7 @@
 ---
 name:
 doi: 10.1371/journal.pone.0259097
-title-paper: " High variability in transmission of SARS-CoV-2 within households and implications for control"
+title-paper: "High variability in transmission of SARS-CoV-2 within households and implications for control"
 software-package:
   - [R, householdTransmission, https://github.com/damontoth/householdTransmission]
 parameters:

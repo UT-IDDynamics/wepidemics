@@ -1,7 +1,7 @@
 ---
 name:
 doi: 10.1016/j.epidem.2016.04.002
-title-paper: " Estimates of the risk of large or long-lasting outbreaks of Middle East respiratory syndrome after importations outside the Arabian Peninsula"
+title-paper: "Estimates of the risk of large or long-lasting outbreaks of Middle East respiratory syndrome after importations outside the Arabian Peninsula"
 software-package:
 parameters:
   - dispersion
