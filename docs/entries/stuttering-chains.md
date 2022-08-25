@@ -9,7 +9,7 @@
 ---
  
  
-**title of the paper:**  Inference of R0 and Transmission Heterogeneity from the Size Distribution of Stuttering Chains
+**title of the paper:** Inference of R0 and Transmission Heterogeneity from the Size Distribution of Stuttering Chains
  
 **doi:** [10.1371/journal.pcbi.1002993](https://doi.org/10.1371/journal.pcbi.1002993)
  
