@@ -1,9 +1,9 @@
 ---
 name:
 doi: 10.1371/journal.pcbi.1002993
-title-paper: " Inference of R0 and Transmission Heterogeneity from the Size Distribution of Stuttering Chains"
+title-paper: "Inference of R0 and Transmission Heterogeneity from the Size Distribution of Stuttering Chains"
 software-package:
-  - [Matlab, n/a, https://doi.org/10.1371/journal.pcbi.1002993.s003]
+  - [Matlab, "n/a", https://doi.org/10.1371/journal.pcbi.1002993.s003]
 parameters:
   - R0
   - dispersion
