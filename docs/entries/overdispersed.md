@@ -9,7 +9,7 @@
 ---
  
  
-**title of the paper:**  Maximum Likelihood Estimation of the Negative Binomial Dispersion Parameter for Highly Overdispersed Data, with Applications to Infectious Diseases
+**title of the paper:** Maximum Likelihood Estimation of the Negative Binomial Dispersion Parameter for Highly Overdispersed Data, with Applications to Infectious Diseases
  
 **doi:** [10.1371/journal.pone.0000180](https://doi.org/10.1371/journal.pone.0000180)
  

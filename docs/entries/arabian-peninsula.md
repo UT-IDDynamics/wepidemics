@@ -9,7 +9,7 @@
 ---
  
  
-**title of the paper:**  Estimates of the risk of large or long-lasting outbreaks of Middle East respiratory syndrome after importations outside the Arabian Peninsula
+**title of the paper:** Estimates of the risk of large or long-lasting outbreaks of Middle East respiratory syndrome after importations outside the Arabian Peninsula
  
 **doi:** [10.1016/j.epidem.2016.04.002](https://doi.org/10.1016/j.epidem.2016.04.002)
  
