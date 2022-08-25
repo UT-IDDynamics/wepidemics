@@ -24,7 +24,7 @@ jobs:
       - name: Compile
         run: |
           cd docs
-          docker run -i --rm -v$(pwd)/../:/home/ -w/home/docs ${cntr} make
+          docker run -i --rm -v$(pwd)/../:/home/ -w/home/docs ${cntr} make -B
 
       - name: Commit results
         run: |
