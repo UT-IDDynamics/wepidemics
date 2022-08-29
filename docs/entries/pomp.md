@@ -3,7 +3,7 @@
 #  bumblebee 
  
 
-[**By keywords**](../by-keyword.md) \| [**By parameter**](../by-parameter.md) \| [**Full table**](../full-table.md)
+ [![Number of entries](https://img.shields.io/endpoint?url=https%3A%2F%2Fut-iddynamics.github.io%2Fwepidemics%2Finfo%2Fentries.json)](https://github.com/UT-IDDynamics/wepidemics) update](https://img.shields.io/github/last-commit/UT-IDDynamics/wepidemics)](https://github.com/UT-IDDynamics/wepidemics)[**By keywords**](../by-keyword.md) \| [**By parameter**](../by-parameter.md) \| [**Full table**](../full-table.md)
 <p style="font-size:10px;font-weight:bold;">(hosted at <a href="https://github.com/UT-IDDynamics/wepidemics" target="_blank">github.com/UT-IDDynamics</a>)</p>
 
 ---
@@ -21,6 +21,14 @@
 **software:**
  
  - [pomp](https://kingaa.github.io/pomp/) (R) 
+
+**Example papers:**
+ 
+ - [http://www.aimspress.com/article/doi/10.3934/mbe.2022485](http://www.aimspress.com/article/doi/10.3934/mbe.2022485) 
+
+**Links:**
+ 
+ - [A simple model to estimate the transmissibility of the Beta, Delta, and Omicron variants of SARS-COV-2 in South Africa](A simple model to estimate the transmissibility of the Beta, Delta, and Omicron variants of SARS-COV-2 in South Africa)  - [http://www.aimspress.com/article/doi/10.3934/mbe.2022485](http://www.aimspress.com/article/doi/10.3934/mbe.2022485) 
 
 
 ## Content
