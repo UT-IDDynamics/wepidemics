@@ -7,6 +7,8 @@ software-package:
 parameters:
   - Rt
   - serial interval
+  - Transmission rate
+  - Reproductive number
 example-papers:  
 keywords:
   - naive bayes
@@ -15,6 +17,10 @@ keywords:
   - transmission probability
   - snp
   - whole genome sequence
+  - relative transmission probabilities
+  - naive Bayes
+  - generation/serial interval
+  - reproductive number
 software-only: no
 date: 2022-08-05
 data-source:
@@ -25,6 +31,7 @@ links:
 ---
 
 From the abstract: 
+
 > **Background**: Estimating infectious disease parameters such as the serial interval (time between symptom onset in primary and secondary cases) and reproductive number (average number of secondary cases produced by a primary case) are important in understanding infectious disease dynamics. Many estimation methods require linking cases by direct transmission, a difficult task for most diseases.
 >
 > **Methods**: Using a subset of cases with detailed genetic and/or contact investigation data to develop a training set of probable transmission events, we build a model to estimate the relative transmission probability for all case-pairs from demographic, spatial and clinical data. Our method is based on naive Bayes, a machine learning classification algorithm which uses the observed frequencies in the training dataset to estimate the probability that a pair is linked given a set of covariates.
