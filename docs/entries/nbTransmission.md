@@ -14,9 +14,9 @@
 **doi:** [10.1093/ije/dyaa031](https://doi.org/10.1093/ije/dyaa031)
  
 
-**keywords:** [**`naive bayes`**](../by-keyword.md#naive-bayes), [**`estimation`**](../by-keyword.md#estimation), [**`methods`**](../by-keyword.md#methods), [**`transmission probability`**](../by-keyword.md#transmission-probability), [**`snp`**](../by-keyword.md#snp), [**`whole genome sequence`**](../by-keyword.md#whole-genome-sequence) 
+**keywords:** [**`naive bayes`**](../by-keyword.md#naive-bayes), [**`estimation`**](../by-keyword.md#estimation), [**`methods`**](../by-keyword.md#methods), [**`transmission probability`**](../by-keyword.md#transmission-probability), [**`snp`**](../by-keyword.md#snp), [**`whole genome sequence`**](../by-keyword.md#whole-genome-sequence), [**`relative transmission probabilities`**](../by-keyword.md#relative-transmission-probabilities), [**`naive bayes`**](../by-keyword.md#naive-bayes), [**`generation/serial interval`**](../by-keyword.md#generation-serial-interval), [**`reproductive number`**](../by-keyword.md#reproductive-number) 
 
-**Parameters:** [**`rt`**](../by-parameter.md#rt), [**`serial interval`**](../by-parameter.md#serial-interval) 
+**Parameters:** [**`rt`**](../by-parameter.md#rt), [**`serial interval`**](../by-parameter.md#serial-interval), [**`transmission rate`**](../by-parameter.md#transmission-rate), [**`reproductive number`**](../by-parameter.md#reproductive-number) 
 
 **software:**
  
@@ -34,6 +34,7 @@
 
 
 From the abstract: 
+
 > **Background**: Estimating infectious disease parameters such as the serial interval (time between symptom onset in primary and secondary cases) and reproductive number (average number of secondary cases produced by a primary case) are important in understanding infectious disease dynamics. Many estimation methods require linking cases by direct transmission, a difficult task for most diseases.
 >
 > **Methods**: Using a subset of cases with detailed genetic and/or contact investigation data to develop a training set of probable transmission events, we build a model to estimate the relative transmission probability for all case-pairs from demographic, spatial and clinical data. Our method is based on naive Bayes, a machine learning classification algorithm which uses the observed frequencies in the training dataset to estimate the probability that a pair is linked given a set of covariates.

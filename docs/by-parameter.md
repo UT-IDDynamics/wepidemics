@@ -15,7 +15,8 @@ By parameter
 
 INDEX
 
-**D** [`diagnostic test sensitivity`](#diagnostic-test-sensitivity),
+**D** [`diagnostic test accuracy`](#diagnostic-test-accuracy),
+[`diagnostic test sensitivity`](#diagnostic-test-sensitivity),
 [`diagnostic test specificity`](#diagnostic-test-specificity),
 [`dispersion`](#dispersion)
 
@@ -24,11 +25,44 @@ INDEX
 **H** [`household attack rate`](#household-attack-rate), [`household
 importation rate`](#household-importation-rate)
 
-**R** [`r0`](#r0), [`rt`](#rt)
+**R** [`r0`](#r0), [`reproductive number`](#reproductive-number),
+[`rt`](#rt)
 
 **S** [`serial interval`](#serial-interval)
 
+**T** [`transmission flows`](#transmission-flows), [`transmission
+rate`](#transmission-rate)
+
 # Details
+
+## diagnostic test accuracy
+
+1.  Diagnostic test evaluation methodology: A systematic review of
+    methods employed to evaluate diagnostic tests in the absence of gold
+    standard-An update [(**link**)](entries/bcROCsurface.md)
+    (*software*: [bcROCsurface
+    (R)](https://cran.r-project.org/web/packages/bcROCsurface/index.html))
+2.  Hierarchical Modeling for Diagnostic Test Accuracy Using
+    Multivariate Probability Distribution Functions
+    [(**link**)](entries/CopulaDTA.md) (*software*: [CopulaDTA
+    (R)](https://cran.r-project.org/web/packages/CopulaDTA/index.html),
+    [CopulaREMADA
+    (R)](https://cran.r-project.org/web/packages/CopulaREMADA/index.html))
+3.  Meta-analysis of diagnostic performance of serology tests for
+    COVID-19: impact of assay design and post-symptom-onset intervals
+    [(**link**)](entries/meta4diag.md) (*software*: [meta4diag
+    (R)](https://cran.r-project.org/web/packages/meta4diag/index.html))
+4.  Diagnostic efficacy of anti-SARS-CoV-2 IgG/IgM test for COVID-19: A
+    meta-analysis [(**link**)](entries/meta4diag2.md) (*software*:
+    [meta4diag
+    (R)](https://cran.r-project.org/web/packages/meta4diag/index.html))
+5.  Diagnostic test accuracy network meta-analysis methods: A scoping
+    review and empirical assessment [(**link**)](entries/NMADiagT.md)
+    (*software*: [CopulaDTA
+    (R)](https://cran.r-project.org/web/packages/CopulaDTA/index.html),
+    [mada (R)](https://cranr-projectorg/web/packages/mada/indexhtml),
+    [NMADiagT
+    (R)](https://cran.r-project.org/web/packages/NMADiagT/index.html))
 
 ## diagnostic test sensitivity
 
@@ -114,6 +148,17 @@ importation rate`](#household-importation-rate)
 5.  Superspreading and the effect of individual variation on disease
     emergence [(**link**)](entries/superspread.md)
 
+## reproductive number
+
+1.  Estimating the relative probability of direct transmission between
+    infectious disease patients [(**link**)](entries/nbTransmission.md)
+    (*software*: [nbTransmission
+    (R)](https://CRAN.R-project.org/package=nbTransmission))
+2.  The impact of long-term nonpharmaceutical interventions on COVID-19
+    epidemic dynamics and control: the value and limitations of early
+    models [(**link**)](entries/pomp.md) (*software*: [pomp
+    (R)](https://kingaa.github.io/pomp/))
+
 ## rt
 
 1.  Estimates of the risk of large or long-lasting outbreaks of Middle
@@ -136,3 +181,22 @@ importation rate`](#household-importation-rate)
     infectious disease patients [(**link**)](entries/nbTransmission.md)
     (*software*: [nbTransmission
     (R)](https://CRAN.R-project.org/package=nbTransmission))
+
+## transmission flows
+
+1.  Deep-sequence phylogenetics to quantify patterns of HIV transmission
+    in the context of a universal testing and treatment trial – BCPP/Ya
+    Tsie trial [(**link**)](entries/bumblebee.md) (*software*:
+    [bumblebee
+    (R)](https://cran.r-project.org/web/packages/bumblebee/index.html))
+
+## transmission rate
+
+1.  Estimating the relative probability of direct transmission between
+    infectious disease patients [(**link**)](entries/nbTransmission.md)
+    (*software*: [nbTransmission
+    (R)](https://CRAN.R-project.org/package=nbTransmission))
+2.  The impact of long-term nonpharmaceutical interventions on COVID-19
+    epidemic dynamics and control: the value and limitations of early
+    models [(**link**)](entries/pomp.md) (*software*: [pomp
+    (R)](https://kingaa.github.io/pomp/))
