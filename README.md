@@ -1,4 +1,4 @@
-[![Number of entries](https://img.shields.io/endpoint?url=https%3A%2F%2Fut-iddynamics.github.io%2Fwepidemics%2Finfo%2Fentries.json)](https://github.com/UT-IDDynamics/wepidemics) [![Build md](https://github.com/UT-IDDynamics/wepidemics/actions/workflows/md.yml/badge.svg)](https://github.com/UT-IDDynamics/wepidemics/actions/workflows/md.yml) [![Last update](https://img.shields.io/github/last-commit/UT-IDDynamics/wepidemics)](https://github.com/UT-IDDynamics/wepidemics)
+[![Number of entries](https://img.shields.io/badge/dynamic/json?label=Entries&query=message&url=https%3A%2F%2Fut-iddynamics.github.io%2Fwepidemics%2Finfo%2Fentries.json)](https://github.com/UT-IDDynamics/wepidemics) [![Build md](https://github.com/UT-IDDynamics/wepidemics/actions/workflows/md.yml/badge.svg)](https://github.com/UT-IDDynamics/wepidemics/actions/workflows/md.yml) [![Last update](https://img.shields.io/github/last-commit/UT-IDDynamics/wepidemics)](https://github.com/UT-IDDynamics/wepidemics)
 
 # wepidemics: A Wiki for Epidemic Modeling
 

@@ -44,7 +44,7 @@ menu_maker <- function(this = c("README.Rmd"), path = "", escape_bar = FALSE) {
   # Reaming to get the md
   names(yam) <- gsub("Rmd$", "md", names(yam))
   
-  res <- "\n [![Number of entries](https://img.shields.io/endpoint?url=https%3A%2F%2Fut-iddynamics.github.io%2Fwepidemics%2Finfo%2Fentries.json)](https://github.com/UT-IDDynamics/wepidemics) update](https://img.shields.io/github/last-commit/UT-IDDynamics/wepidemics)](https://github.com/UT-IDDynamics/wepidemics)"
+  res <- "\n [![Number of entries](https://img.shields.io/badge/dynamic/json?label=Entries&query=message&url=https%3A%2F%2Fut-iddynamics.github.io%2Fwepidemics%2Finfo%2Fentries.json)](https://github.com/UT-IDDynamics/wepidemics) [![Last update](https://img.shields.io/github/last-commit/UT-IDDynamics/wepidemics)](https://github.com/UT-IDDynamics/wepidemics)"
   
   res <- paste0(res, Map(\(name., link.) {
     sprintf("[**%s**](%s%s)", name., path, link.)
