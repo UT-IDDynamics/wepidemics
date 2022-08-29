@@ -8,6 +8,7 @@ parameters:
   - Transmission rate
   - Reproductive number
 example-papers:  
+  - http://www.aimspress.com/article/doi/10.3934/mbe.2022485
 keywords:
   - partially observed Markov processes
   - particle filtering 
@@ -24,6 +25,7 @@ software-only: no
 date: 2022-08-05
 data-source:
 links:
+  - ["A simple model to estimate the transmissibility of the Beta, Delta, and Omicron variants of SARS-COV-2 in South Africa", "http://www.aimspress.com/article/doi/10.3934/mbe.2022485"]
 ---
 
 From the abstract: 

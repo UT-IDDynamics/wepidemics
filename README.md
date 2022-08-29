@@ -1,3 +1,5 @@
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fut-iddynamics.github.io%2Fwepidemics%2Finfo%2Fentries.json)](Number of entries)
+
 # wepidemics: A Wiki for Epidemic Modeling
 
 This repository compiles information about epidemics modeling. The goal is

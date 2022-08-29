@@ -79,3 +79,10 @@ tab[, keywords := tolower(keywords)]
 tab |> knitr::kable(row.names = FALSE)
 ```
 
+```{r echo = FALSE}
+json <- '{"schemaVersion": "1", "label": "Entries", "message": "%i", "color": "green"}'
+cat(sprintf(json, nrow(tab)), file = "info/entries.json")
+```
+
+
+
