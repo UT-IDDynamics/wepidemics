@@ -6,10 +6,10 @@ entries](https://img.shields.io/badge/dynamic/json?label=Entries&query=message&u
 [![Last
 update](https://img.shields.io/github/last-commit/UT-IDDynamics/wepidemics)](https://github.com/UT-IDDynamics/wepidemics)
 
-[**By keywords**](by-keyword.md) \| [**By parameter**](by-parameter.md)
-\| [**Full table**](full-table.md)
+[**By keywords**](by-keyword.md) | [**By parameter**](by-parameter.md) |
+[**Full table**](full-table.md)
 
-------------------------------------------------------------------------
+-----
 
 INDEX
 
@@ -20,22 +20,22 @@ INDEX
 
 **G** [`generation time`](#generation-time)
 
-**H** [`household attack rate`](#household-attack-rate),
-[`household importation rate`](#household-importation-rate)
+**H** [`household attack rate`](#household-attack-rate), [`household
+importation rate`](#household-importation-rate)
 
 **I** [`incubation period`](#incubation-period),
 [`incubation`](#incubation), [`infectiousness`](#infectiousness)
 
-**L** [`latent period duration`](#latent-period-duration),
-[`latent period`](#latent-period)
+**L** [`latent period duration`](#latent-period-duration), [`latent
+period`](#latent-period)
 
 **R** [`r0`](#r0), [`reproductive number`](#reproductive-number),
 [`rt`](#rt)
 
 **S** [`serial interval`](#serial-interval)
 
-**T** [`transmission flows`](#transmission-flows),
-[`transmission rate`](#transmission-rate)
+**T** [`transmission flows`](#transmission-flows), [`transmission
+rate`](#transmission-rate)
 
 # Details
 
@@ -90,9 +90,9 @@ INDEX
 2.  Estimating the overdispersion in COVID-19 transmission using
     outbreak sizes outside China
     [(**link**)](entries/clustersize-china.md) (*software*:
-    [COVID19_clustersize
+    [COVID19\_clustersize
     (R)](https://github.com/akira-endo/COVID19_clustersize),
-    [COVID19_clustersize
+    [COVID19\_clustersize
     (Python)](https://github.com/akira-endo/COVID19_clustersize))
 3.  Maximum Likelihood Estimation of the Negative Binomial Dispersion
     Parameter for Highly Overdispersed Data, with Applications to
@@ -184,9 +184,9 @@ INDEX
 2.  Estimating the overdispersion in COVID-19 transmission using
     outbreak sizes outside China
     [(**link**)](entries/clustersize-china.md) (*software*:
-    [COVID19_clustersize
+    [COVID19\_clustersize
     (R)](https://github.com/akira-endo/COVID19_clustersize),
-    [COVID19_clustersize
+    [COVID19\_clustersize
     (Python)](https://github.com/akira-endo/COVID19_clustersize))
 3.  Bayesian Reconstruction of Disease Outbreaks by Combining
     Epidemiologic and Genomic Data [(**link**)](entries/outbreaker2.md)
