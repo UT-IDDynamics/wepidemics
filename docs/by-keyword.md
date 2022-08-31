@@ -6,107 +6,107 @@ entries](https://img.shields.io/badge/dynamic/json?label=Entries&query=message&u
 [![Last
 update](https://img.shields.io/github/last-commit/UT-IDDynamics/wepidemics)](https://github.com/UT-IDDynamics/wepidemics)
 
-[**By keywords**](by-keyword.md) \| [**By parameter**](by-parameter.md)
-\| [**Full table**](full-table.md)
+[**By keywords**](by-keyword.md) | [**By parameter**](by-parameter.md) |
+[**Full table**](full-table.md)
 
-------------------------------------------------------------------------
+-----
 
 INDEX
 
-**A** [`abm`](#abm),
-[`approximate bayesian computation`](#approximate-bayesian-computation),
-[`approximate bayesian sequential monte carlo`](#approximate-bayesian-sequential-monte-carlo)
+**A** [`abm`](#abm), [`approximate bayesian
+computation`](#approximate-bayesian-computation), [`approximate bayesian
+sequential monte carlo`](#approximate-bayesian-sequential-monte-carlo)
 
 **B** [`bayesian inference analysis`](#bayesian-inference-analysis),
-[`bias-corrected estimation methods`](#bias-corrected-estimation-methods),
-[`bias`](#bias), [`big-data`](#big-data),
-[`branching process`](#branching-process)
+[`bias-corrected estimation
+methods`](#bias-corrected-estimation-methods), [`bias`](#bias),
+[`big-data`](#big-data), [`branching process`](#branching-process)
 
-**C**
-[`case-control and cohort studies`](#case-control-and-cohort-studies),
-[`chain`](#chain), [`compartmental models`](#compartmental-models),
-[`contact tracing data`](#contact-tracing-data),
-[`continuous diagnostic tests`](#continuous-diagnostic-tests),
-[`control`](#control),
-[`copula based bivariate beta-binomial model`](#copula-based-bivariate-beta-binomial-model),
-[`copula mixed models`](#copula-mixed-models), [`covid-19`](#covid-19)
+**C** [`case-control and cohort
+studies`](#case-control-and-cohort-studies), [`chain`](#chain),
+[`compartmental models`](#compartmental-models), [`contact tracing
+data`](#contact-tracing-data), [`continuous diagnostic
+tests`](#continuous-diagnostic-tests), [`control`](#control), [`copula
+based bivariate beta-binomial
+model`](#copula-based-bivariate-beta-binomial-model), [`copula mixed
+models`](#copula-mixed-models), [`covid-19`](#covid-19)
 
 **D** [`d-vine copula mixed model`](#d-vine-copula-mixed-model),
 [`deep-sequence data`](#deep-sequence-data), [`detection`](#detection),
-[`diagnostic accuracy`](#diagnostic-accuracy),
-[`diagnostic test accuracy studies`](#diagnostic-test-accuracy-studies),
-[`diagnostic tests`](#diagnostic-tests), [`diffusion`](#diffusion),
+[`diagnostic accuracy`](#diagnostic-accuracy), [`diagnostic test
+accuracy studies`](#diagnostic-test-accuracy-studies), [`diagnostic
+tests`](#diagnostic-tests), [`diffusion`](#diffusion),
 [`dispersion`](#dispersion)
 
-**E**
-[`ensemble adjustment kalman filter`](#ensemble-adjustment-kalman-filter),
-[`ensemble kalman filter`](#ensemble-kalman-filter), [`ergm`](#ergm),
+**E** [`ensemble adjustment kalman
+filter`](#ensemble-adjustment-kalman-filter), [`ensemble kalman
+filter`](#ensemble-kalman-filter), [`ergm`](#ergm),
 [`estimation`](#estimation), [`exportations`](#exportations)
 
 **F** [`final size`](#final-size), [`flows`](#flows)
 
-**G** [`gamma distribution`](#gamma-distribution),
-[`gamma model`](#gamma-model), [`gamma`](#gamma),
-[`general interval`](#general-interval),
-[`generation/serial interval`](#generation-serial-interval),
-[`genomics`](#genomics),
+**G** [`gamma distribution`](#gamma-distribution), [`gamma
+model`](#gamma-model), [`gamma`](#gamma), [`general
+interval`](#general-interval), [`generation/serial
+interval`](#generation-serial-interval), [`genomics`](#genomics),
 [`guassian distribution`](#guassian-distribution)
 
-**H**
-[`hierarchical summary receiver operating characteristic`](#hierarchical-summary-receiver-operating-characteristic),
+**H** [`hierarchical summary receiver operating
+characteristic`](#hierarchical-summary-receiver-operating-characteristic),
 [`hmm`](#hmm), [`household transmission`](#household-transmission)
 
-**I** [`importations`](#importations),
-[`incubation period`](#incubation-period),
-[`infectious period`](#infectious-period), [`influenza`](#influenza),
-[`integrated nested laplace approximation`](#integrated-nested-laplace-approximation),
-[`iterated filtering`](#iterated-filtering)
+**I** [`importations`](#importations), [`incubation
+period`](#incubation-period), [`infectious period`](#infectious-period),
+[`influenza`](#influenza), [`integrated nested laplace
+approximation`](#integrated-nested-laplace-approximation), [`iterated
+filtering`](#iterated-filtering)
 
-**L** [`latent period`](#latent-period),
-[`log-normal model`](#log-normal-model)
+**L** [`latent period`](#latent-period), [`log-normal
+model`](#log-normal-model)
 
-**M** [`markov hidden models`](#markov-hidden-models),
-[`maximum likelihood`](#maximum-likelihood), [`mcmc`](#mcmc),
-[`meta analysis`](#meta-analysis),
-[`meta-analysis of multiple diagnostic tests`](#meta-analysis-of-multiple-diagnostic-tests),
-[`meta-analysis`](#meta-analysis), [`methods`](#methods),
-[`missing at random`](#missing-at-random),
-[`missing data framework`](#missing-data-framework),
-[`multinomial quadrivariate d-vine copula mixed model`](#multinomial-quadrivariate-d-vine-copula-mixed-model),
+**M** [`markov hidden models`](#markov-hidden-models), [`maximum
+likelihood`](#maximum-likelihood), [`mcmc`](#mcmc), [`meta
+analysis`](#meta-analysis), [`meta-analysis of multiple diagnostic
+tests`](#meta-analysis-of-multiple-diagnostic-tests),
+[`meta-analysis`](#meta-analysis), [`methods`](#methods), [`missing at
+random`](#missing-at-random), [`missing data
+framework`](#missing-data-framework), [`multinomial quadrivariate d-vine
+copula mixed
+model`](#multinomial-quadrivariate-d-vine-copula-mixed-model),
 [`multiple diagnostic tests`](#multiple-diagnostic-tests),
-[`multivariate meta-analysis`](#multivariate-meta-analysis),
-[`mutation rate`](#mutation-rate)
+[`multivariate meta-analysis`](#multivariate-meta-analysis), [`mutation
+rate`](#mutation-rate)
 
-**N** [`naive bayes`](#naive-bayes),
-[`network meta-analysis`](#network-meta-analysis),
-[`network`](#network), [`networks`](#networks),
-[`nonlinear forecasting`](#nonlinear-forecasting)
+**N** [`naive bayes`](#naive-bayes), [`network
+meta-analysis`](#network-meta-analysis), [`network`](#network),
+[`networks`](#networks), [`nonlinear
+forecasting`](#nonlinear-forecasting)
 
 **O** [`one-factor copula mixed model`](#one-factor-copula-mixed-model),
 [`overdispersion`](#overdispersion)
 
-**P**
-[`partially observed markov processes`](#partially-observed-markov-processes),
-[`particle filtering`](#particle-filtering),
-[`phylogenetics`](#phylogenetics),
+**P** [`partially observed markov
+processes`](#partially-observed-markov-processes), [`particle
+filtering`](#particle-filtering), [`phylogenetics`](#phylogenetics),
 [`power-spectrum-matching`](#power-spectrum-matching),
 [`prediction`](#prediction), [`probe-matching`](#probe-matching)
 
-**R** [`real-time`](#real-time),
-[`relative transmission probabilities`](#relative-transmission-probabilities),
-[`reproductive number`](#reproductive-number),
-[`risk assessment`](#risk-assessment), [`roc surface`](#roc-surface)
+**R** [`real-time`](#real-time), [`relative transmission
+probabilities`](#relative-transmission-probabilities), [`reproductive
+number`](#reproductive-number), [`risk assessment`](#risk-assessment),
+[`roc surface`](#roc-surface)
 
 **S** [`simulation`](#simulation), [`sna`](#sna), [`snp`](#snp),
 [`superspreading`](#superspreading)
 
-**T** [`trajectory matching`](#trajectory-matching),
-[`transmission flows within and between population groups accounting for sampling heterogeneity`](#transmission-flows-within-and-between-population-groups-accounting-for-sampling-heterogeneity),
-[`transmission pairs`](#transmission-pairs),
-[`transmission probability`](#transmission-probability)
+**T** [`trajectory matching`](#trajectory-matching), [`transmission
+flows within and between population groups accounting for sampling
+heterogeneity`](#transmission-flows-within-and-between-population-groups-accounting-for-sampling-heterogeneity),
+[`transmission pairs`](#transmission-pairs), [`transmission
+probability`](#transmission-probability)
 
-**V** [`visualization`](#visualization),
-[`volume under roc surfaces`](#volume-under-roc-surfaces)
+**V** [`visualization`](#visualization), [`volume under roc
+surfaces`](#volume-under-roc-surfaces)
 
 **W** [`web sources`](#web-sources), [`weibull model`](#weibull-model),
 [`whole genome sequence`](#whole-genome-sequence)
@@ -175,9 +175,9 @@ INDEX
 1.  Estimating the overdispersion in COVID-19 transmission using
     outbreak sizes outside China
     [(**link**)](entries/clustersize-china.md) (*software*:
-    [COVID19_clustersize
+    [COVID19\_clustersize
     (R)](https://github.com/akira-endo/COVID19_clustersize),
-    [COVID19_clustersize
+    [COVID19\_clustersize
     (Python)](https://github.com/akira-endo/COVID19_clustersize))
 
 ## case-control and cohort studies
@@ -250,9 +250,9 @@ INDEX
 1.  Estimating the overdispersion in COVID-19 transmission using
     outbreak sizes outside China
     [(**link**)](entries/clustersize-china.md) (*software*:
-    [COVID19_clustersize
+    [COVID19\_clustersize
     (R)](https://github.com/akira-endo/COVID19_clustersize),
-    [COVID19_clustersize
+    [COVID19\_clustersize
     (Python)](https://github.com/akira-endo/COVID19_clustersize))
 2.  High variability in transmission of SARS-CoV-2 within households and
     implications for control [(**link**)](entries/within-households.md)
@@ -712,9 +712,9 @@ INDEX
 2.  Estimating the overdispersion in COVID-19 transmission using
     outbreak sizes outside China
     [(**link**)](entries/clustersize-china.md) (*software*:
-    [COVID19_clustersize
+    [COVID19\_clustersize
     (R)](https://github.com/akira-endo/COVID19_clustersize),
-    [COVID19_clustersize
+    [COVID19\_clustersize
     (Python)](https://github.com/akira-endo/COVID19_clustersize))
 3.  Maximum Likelihood Estimation of the Negative Binomial Dispersion
     Parameter for Highly Overdispersed Data, with Applications to
@@ -831,9 +831,9 @@ INDEX
 1.  Estimating the overdispersion in COVID-19 transmission using
     outbreak sizes outside China
     [(**link**)](entries/clustersize-china.md) (*software*:
-    [COVID19_clustersize
+    [COVID19\_clustersize
     (R)](https://github.com/akira-endo/COVID19_clustersize),
-    [COVID19_clustersize
+    [COVID19\_clustersize
     (Python)](https://github.com/akira-endo/COVID19_clustersize))
 2.  Superspreading and the effect of individual variation on disease
     emergence [(**link**)](entries/superspread.md)
