@@ -6,99 +6,110 @@ entries](https://img.shields.io/badge/dynamic/json?label=Entries&query=message&u
 [![Last
 update](https://img.shields.io/github/last-commit/UT-IDDynamics/wepidemics)](https://github.com/UT-IDDynamics/wepidemics)
 
-## [**By keywords**](by-keyword.md) | [**By parameter**](by-parameter.md) | [**Full table**](full-table.md)
+[**By keywords**](by-keyword.md) \| [**By parameter**](by-parameter.md)
+\| [**Full table**](full-table.md)
+
+------------------------------------------------------------------------
 
 INDEX
 
-**A** [`abm`](#abm), [`approximate bayesian
-computation`](#approximate-bayesian-computation), [`approximate bayesian
-sequential monte carlo`](#approximate-bayesian-sequential-monte-carlo)
+**A** [`abm`](#abm),
+[`approximate bayesian computation`](#approximate-bayesian-computation),
+[`approximate bayesian sequential monte carlo`](#approximate-bayesian-sequential-monte-carlo)
 
 **B** [`bayesian inference analysis`](#bayesian-inference-analysis),
-[`bias-corrected estimation
-methods`](#bias-corrected-estimation-methods), [`bias`](#bias),
-[`big-data`](#big-data), [`branching process`](#branching-process)
+[`bias-corrected estimation methods`](#bias-corrected-estimation-methods),
+[`bias`](#bias), [`big-data`](#big-data),
+[`branching process`](#branching-process)
 
-**C** [`case-control and cohort
-studies`](#case-control-and-cohort-studies), [`chain`](#chain),
-[`compartmental models`](#compartmental-models), [`continuous diagnostic
-tests`](#continuous-diagnostic-tests), [`control`](#control), [`copula
-based bivariate beta-binomial
-model`](#copula-based-bivariate-beta-binomial-model), [`copula mixed
-models`](#copula-mixed-models), [`covid-19`](#covid-19)
+**C**
+[`case-control and cohort studies`](#case-control-and-cohort-studies),
+[`chain`](#chain), [`compartmental models`](#compartmental-models),
+[`contact tracing data`](#contact-tracing-data),
+[`continuous diagnostic tests`](#continuous-diagnostic-tests),
+[`control`](#control),
+[`copula based bivariate beta-binomial model`](#copula-based-bivariate-beta-binomial-model),
+[`copula mixed models`](#copula-mixed-models), [`covid-19`](#covid-19)
 
 **D** [`d-vine copula mixed model`](#d-vine-copula-mixed-model),
 [`deep-sequence data`](#deep-sequence-data), [`detection`](#detection),
-[`diagnostic accuracy`](#diagnostic-accuracy), [`diagnostic test
-accuracy studies`](#diagnostic-test-accuracy-studies), [`diagnostic
-tests`](#diagnostic-tests), [`diffusion`](#diffusion),
+[`diagnostic accuracy`](#diagnostic-accuracy),
+[`diagnostic test accuracy studies`](#diagnostic-test-accuracy-studies),
+[`diagnostic tests`](#diagnostic-tests), [`diffusion`](#diffusion),
 [`dispersion`](#dispersion)
 
-**E** [`ensemble adjustment kalman
-filter`](#ensemble-adjustment-kalman-filter), [`ensemble kalman
-filter`](#ensemble-kalman-filter), [`ergm`](#ergm),
+**E**
+[`ensemble adjustment kalman filter`](#ensemble-adjustment-kalman-filter),
+[`ensemble kalman filter`](#ensemble-kalman-filter), [`ergm`](#ergm),
 [`estimation`](#estimation), [`exportations`](#exportations)
 
 **F** [`final size`](#final-size), [`flows`](#flows)
 
-**G** [`generation/serial interval`](#generation-serial-interval),
-[`genomics`](#genomics)
+**G** [`gamma distribution`](#gamma-distribution),
+[`gamma model`](#gamma-model), [`gamma`](#gamma),
+[`general interval`](#general-interval),
+[`generation/serial interval`](#generation-serial-interval),
+[`genomics`](#genomics),
+[`guassian distribution`](#guassian-distribution)
 
-**H** [`hierarchical summary receiver operating
-characteristic`](#hierarchical-summary-receiver-operating-characteristic),
+**H**
+[`hierarchical summary receiver operating characteristic`](#hierarchical-summary-receiver-operating-characteristic),
 [`hmm`](#hmm), [`household transmission`](#household-transmission)
 
-**I** [`importations`](#importations), [`influenza`](#influenza),
-[`integrated nested laplace
-approximation`](#integrated-nested-laplace-approximation), [`iterated
-filtering`](#iterated-filtering)
+**I** [`importations`](#importations),
+[`incubation period`](#incubation-period),
+[`infectious period`](#infectious-period), [`influenza`](#influenza),
+[`integrated nested laplace approximation`](#integrated-nested-laplace-approximation),
+[`iterated filtering`](#iterated-filtering)
 
-**M** [`markov hidden models`](#markov-hidden-models), [`maximum
-likelihood`](#maximum-likelihood), [`mcmc`](#mcmc), [`meta-analysis of
-multiple diagnostic
-tests`](#meta-analysis-of-multiple-diagnostic-tests),
-[`meta-analysis`](#meta-analysis), [`methods`](#methods), [`missing at
-random`](#missing-at-random), [`missing data
-framework`](#missing-data-framework), [`multinomial quadrivariate d-vine
-copula mixed
-model`](#multinomial-quadrivariate-d-vine-copula-mixed-model),
+**L** [`latent period`](#latent-period),
+[`log-normal model`](#log-normal-model)
+
+**M** [`markov hidden models`](#markov-hidden-models),
+[`maximum likelihood`](#maximum-likelihood), [`mcmc`](#mcmc),
+[`meta analysis`](#meta-analysis),
+[`meta-analysis of multiple diagnostic tests`](#meta-analysis-of-multiple-diagnostic-tests),
+[`meta-analysis`](#meta-analysis), [`methods`](#methods),
+[`missing at random`](#missing-at-random),
+[`missing data framework`](#missing-data-framework),
+[`multinomial quadrivariate d-vine copula mixed model`](#multinomial-quadrivariate-d-vine-copula-mixed-model),
 [`multiple diagnostic tests`](#multiple-diagnostic-tests),
-[`multivariate meta-analysis`](#multivariate-meta-analysis), [`mutation
-rate`](#mutation-rate)
+[`multivariate meta-analysis`](#multivariate-meta-analysis),
+[`mutation rate`](#mutation-rate)
 
-**N** [`naive bayes`](#naive-bayes), [`network
-meta-analysis`](#network-meta-analysis), [`network`](#network),
-[`networks`](#networks), [`nonlinear
-forecasting`](#nonlinear-forecasting)
+**N** [`naive bayes`](#naive-bayes),
+[`network meta-analysis`](#network-meta-analysis),
+[`network`](#network), [`networks`](#networks),
+[`nonlinear forecasting`](#nonlinear-forecasting)
 
 **O** [`one-factor copula mixed model`](#one-factor-copula-mixed-model),
 [`overdispersion`](#overdispersion)
 
-**P** [`partially observed markov
-processes`](#partially-observed-markov-processes), [`particle
-filtering`](#particle-filtering), [`phylogenetics`](#phylogenetics),
+**P**
+[`partially observed markov processes`](#partially-observed-markov-processes),
+[`particle filtering`](#particle-filtering),
+[`phylogenetics`](#phylogenetics),
 [`power-spectrum-matching`](#power-spectrum-matching),
 [`prediction`](#prediction), [`probe-matching`](#probe-matching)
 
-**R** [`real-time`](#real-time), [`relative transmission
-probabilities`](#relative-transmission-probabilities), [`reproductive
-number`](#reproductive-number), [`risk assessment`](#risk-assessment),
-[`roc surface`](#roc-surface)
+**R** [`real-time`](#real-time),
+[`relative transmission probabilities`](#relative-transmission-probabilities),
+[`reproductive number`](#reproductive-number),
+[`risk assessment`](#risk-assessment), [`roc surface`](#roc-surface)
 
 **S** [`simulation`](#simulation), [`sna`](#sna), [`snp`](#snp),
 [`superspreading`](#superspreading)
 
-**T** [`trajectory matching`](#trajectory-matching), [`transmission
-flows within and between population groups accounting for sampling
-heterogeneity`](#transmission-flows-within-and-between-population-groups-accounting-for-sampling-heterogeneity),
-[`transmission pairs`](#transmission-pairs), [`transmission
-probability`](#transmission-probability)
+**T** [`trajectory matching`](#trajectory-matching),
+[`transmission flows within and between population groups accounting for sampling heterogeneity`](#transmission-flows-within-and-between-population-groups-accounting-for-sampling-heterogeneity),
+[`transmission pairs`](#transmission-pairs),
+[`transmission probability`](#transmission-probability)
 
-**V** [`visualization`](#visualization), [`volume under roc
-surfaces`](#volume-under-roc-surfaces)
+**V** [`visualization`](#visualization),
+[`volume under roc surfaces`](#volume-under-roc-surfaces)
 
-**W** [`web sources`](#web-sources), [`whole genome
-sequence`](#whole-genome-sequence)
+**W** [`web sources`](#web-sources), [`weibull model`](#weibull-model),
+[`whole genome sequence`](#whole-genome-sequence)
 
 # Details
 
@@ -164,9 +175,9 @@ sequence`](#whole-genome-sequence)
 1.  Estimating the overdispersion in COVID-19 transmission using
     outbreak sizes outside China
     [(**link**)](entries/clustersize-china.md) (*software*:
-    [COVID19\_clustersize
+    [COVID19_clustersize
     (R)](https://github.com/akira-endo/COVID19_clustersize),
-    [COVID19\_clustersize
+    [COVID19_clustersize
     (Python)](https://github.com/akira-endo/COVID19_clustersize))
 
 ## case-control and cohort studies
@@ -189,6 +200,12 @@ sequence`](#whole-genome-sequence)
 
 1.  Practical considerations for measuring the effective reproductive
     number, Rt [(**link**)](entries/effective-rep-number.md)
+
+## contact tracing data
+
+1.  Estimating the generation interval and inferring the latent period
+    of COVID-19 from the contact tracing data
+    [(**link**)](entries/incubation-contact-tracing.md)
 
 ## continuous diagnostic tests
 
@@ -233,9 +250,9 @@ sequence`](#whole-genome-sequence)
 1.  Estimating the overdispersion in COVID-19 transmission using
     outbreak sizes outside China
     [(**link**)](entries/clustersize-china.md) (*software*:
-    [COVID19\_clustersize
+    [COVID19_clustersize
     (R)](https://github.com/akira-endo/COVID19_clustersize),
-    [COVID19\_clustersize
+    [COVID19_clustersize
     (Python)](https://github.com/akira-endo/COVID19_clustersize))
 2.  High variability in transmission of SARS-CoV-2 within households and
     implications for control [(**link**)](entries/within-households.md)
@@ -377,6 +394,30 @@ sequence`](#whole-genome-sequence)
     [(**link**)](entries/epiflows.md) (*software*: [epiflows
     (R)](https://github.com/reconhub/epiflows/))
 
+## gamma distribution
+
+1.  Inferred duration of infectious period of SARS-CoV-2: rapid scoping
+    review and analysis of available evidence for asymptomatic and
+    symptomatic COVID-19 cases
+    [(**link**)](entries/rapid-scoping-review.md)
+
+## gamma model
+
+1.  Estimating the generation interval and inferring the latent period
+    of COVID-19 from the contact tracing data
+    [(**link**)](entries/incubation-contact-tracing.md)
+
+## gamma
+
+1.  Estimating the Latent Period of Coronavirus Disease 2019 (COVID-19)
+    [(**link**)](entries/latent-period-china.md)
+
+## general interval
+
+1.  Estimating the generation interval and inferring the latent period
+    of COVID-19 from the contact tracing data
+    [(**link**)](entries/incubation-contact-tracing.md)
+
 ## generation/serial interval
 
 1.  Estimating the relative probability of direct transmission between
@@ -390,6 +431,13 @@ sequence`](#whole-genome-sequence)
     Epidemiologic and Genomic Data [(**link**)](entries/outbreaker2.md)
     (*software*: [outbreaker2
     (R)](https://CRAN.R-project.org/package=outbreaker2))
+
+## guassian distribution
+
+1.  Inferred duration of infectious period of SARS-CoV-2: rapid scoping
+    review and analysis of available evidence for asymptomatic and
+    symptomatic COVID-19 cases
+    [(**link**)](entries/rapid-scoping-review.md)
 
 ## hierarchical summary receiver operating characteristic
 
@@ -425,6 +473,23 @@ sequence`](#whole-genome-sequence)
     (*software*: [outbreaker2
     (R)](https://CRAN.R-project.org/package=outbreaker2))
 
+## incubation period
+
+1.  Estimating the generation interval and inferring the latent period
+    of COVID-19 from the contact tracing data
+    [(**link**)](entries/incubation-contact-tracing.md)
+2.  The Incubation period of COVID-19: A meta-analysis
+    [(**link**)](entries/incubation-meta2.md)
+3.  Estimating the Latent Period of Coronavirus Disease 2019 (COVID-19)
+    [(**link**)](entries/latent-period-china.md)
+
+## infectious period
+
+1.  Inferred duration of infectious period of SARS-CoV-2: rapid scoping
+    review and analysis of available evidence for asymptomatic and
+    symptomatic COVID-19 cases
+    [(**link**)](entries/rapid-scoping-review.md)
+
 ## influenza
 
 1.  Accurate estimation of influenza epidemics using Google search data
@@ -448,6 +513,19 @@ sequence`](#whole-genome-sequence)
     epidemic dynamics and control: the value and limitations of early
     models [(**link**)](entries/pomp.md) (*software*: [pomp
     (R)](https://kingaa.github.io/pomp/))
+
+## latent period
+
+1.  Estimating the generation interval and inferring the latent period
+    of COVID-19 from the contact tracing data
+    [(**link**)](entries/incubation-contact-tracing.md)
+2.  Estimating the Latent Period of Coronavirus Disease 2019 (COVID-19)
+    [(**link**)](entries/latent-period-china.md)
+
+## log-normal model
+
+1.  Estimating the Latent Period of Coronavirus Disease 2019 (COVID-19)
+    [(**link**)](entries/latent-period-china.md)
 
 ## markov hidden models
 
@@ -475,6 +553,15 @@ sequence`](#whole-genome-sequence)
     (R)](https://github.com/UofUEpi/epiworldR), [epiworld
     (C++)](https://github.com/UofUEpi/epiworld))
 
+## meta analysis
+
+1.  Incubation period for COVID-19: a systematic review and
+    meta-analysis [(**link**)](entries/incubation-meta.md)
+2.  Inferred duration of infectious period of SARS-CoV-2: rapid scoping
+    review and analysis of available evidence for asymptomatic and
+    symptomatic COVID-19 cases
+    [(**link**)](entries/rapid-scoping-review.md)
+
 ## meta-analysis of multiple diagnostic tests
 
 1.  Hierarchical Modeling for Diagnostic Test Accuracy Using
@@ -486,15 +573,17 @@ sequence`](#whole-genome-sequence)
 
 ## meta-analysis
 
-1.  Meta-analysis of diagnostic performance of serology tests for
+1.  The Incubation period of COVID-19: A meta-analysis
+    [(**link**)](entries/incubation-meta2.md)
+2.  Meta-analysis of diagnostic performance of serology tests for
     COVID-19: impact of assay design and post-symptom-onset intervals
     [(**link**)](entries/meta4diag.md) (*software*: [meta4diag
     (R)](https://cran.r-project.org/web/packages/meta4diag/index.html))
-2.  Diagnostic efficacy of anti-SARS-CoV-2 IgG/IgM test for COVID-19: A
+3.  Diagnostic efficacy of anti-SARS-CoV-2 IgG/IgM test for COVID-19: A
     meta-analysis [(**link**)](entries/meta4diag2.md) (*software*:
     [meta4diag
     (R)](https://cran.r-project.org/web/packages/meta4diag/index.html))
-3.  Diagnostic test accuracy network meta-analysis methods: A scoping
+4.  Diagnostic test accuracy network meta-analysis methods: A scoping
     review and empirical assessment [(**link**)](entries/NMADiagT.md)
     (*software*: [CopulaDTA
     (R)](https://cran.r-project.org/web/packages/CopulaDTA/index.html),
@@ -623,9 +712,9 @@ sequence`](#whole-genome-sequence)
 2.  Estimating the overdispersion in COVID-19 transmission using
     outbreak sizes outside China
     [(**link**)](entries/clustersize-china.md) (*software*:
-    [COVID19\_clustersize
+    [COVID19_clustersize
     (R)](https://github.com/akira-endo/COVID19_clustersize),
-    [COVID19\_clustersize
+    [COVID19_clustersize
     (Python)](https://github.com/akira-endo/COVID19_clustersize))
 3.  Maximum Likelihood Estimation of the Negative Binomial Dispersion
     Parameter for Highly Overdispersed Data, with Applications to
@@ -742,9 +831,9 @@ sequence`](#whole-genome-sequence)
 1.  Estimating the overdispersion in COVID-19 transmission using
     outbreak sizes outside China
     [(**link**)](entries/clustersize-china.md) (*software*:
-    [COVID19\_clustersize
+    [COVID19_clustersize
     (R)](https://github.com/akira-endo/COVID19_clustersize),
-    [COVID19\_clustersize
+    [COVID19_clustersize
     (Python)](https://github.com/akira-endo/COVID19_clustersize))
 2.  Superspreading and the effect of individual variation on disease
     emergence [(**link**)](entries/superspread.md)
@@ -799,6 +888,11 @@ sequence`](#whole-genome-sequence)
 1.  Accurate estimation of influenza epidemics using Google search data
     via ARGO [(**link**)](entries/argo.md) (*software*: [argo
     (R)](https://cran.r-project.org/package=argo))
+
+## weibull model
+
+1.  Estimating the Latent Period of Coronavirus Disease 2019 (COVID-19)
+    [(**link**)](entries/latent-period-china.md)
 
 ## whole genome sequence
 

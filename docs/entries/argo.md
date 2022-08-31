@@ -6,12 +6,13 @@
 [![Number of entries](https://img.shields.io/badge/dynamic/json?label=Entries&query=message&url=https%3A%2F%2Fut-iddynamics.github.io%2Fwepidemics%2Finfo%2Fentries.json)](https://github.com/UT-IDDynamics/wepidemics) [![Last update](https://img.shields.io/github/last-commit/UT-IDDynamics/wepidemics)](https://github.com/UT-IDDynamics/wepidemics)
 
 [**By keywords**](../by-keyword.md) \| [**By parameter**](../by-parameter.md) \| [**Full table**](../full-table.md)
+
 ---
  
  
 **title of the paper:** Accurate estimation of influenza epidemics using Google search data via ARGO
  
-**doi:** [doi.org/10.1073/pnas.1515373112](https://doi.org/doi.org/10.1073/pnas.1515373112)
+**doi:** [10.1073/pnas.1515373112](https://doi.org/10.1073/pnas.1515373112)
  
 
 **keywords:** [**`web sources`**](../by-keyword.md#web-sources), [**`big-data`**](../by-keyword.md#big-data), [**`real-time`**](../by-keyword.md#real-time), [**`influenza`**](../by-keyword.md#influenza), [**`methods`**](../by-keyword.md#methods), [**`hmm`**](../by-keyword.md#hmm), [**`prediction`**](../by-keyword.md#prediction), [**`markov hidden models`**](../by-keyword.md#markov-hidden-models) 

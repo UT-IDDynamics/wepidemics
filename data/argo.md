@@ -1,6 +1,6 @@
 ---
 name: argo
-doi: doi.org/10.1073/pnas.1515373112
+doi: 10.1073/pnas.1515373112
 title-paper: "Accurate estimation of influenza epidemics using Google search data via ARGO"
 software-package:
   - [R, argo, https://cran.r-project.org/package=argo]

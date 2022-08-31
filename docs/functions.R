@@ -52,7 +52,7 @@ menu_maker <- function(this = c("README.Rmd"), path = "", escape_bar = FALSE) {
     unlist() |> paste(collapse = ifelse(escape_bar, " \\| ", " | ")),  "\n")
   
   # res <- paste0(res, '<p style="font-size:10px;font-weight:bold;">(hosted at <a href="https://github.com/UT-IDDynamics/wepidemics" target="_blank">github.com/UT-IDDynamics</a>)</p>\n\n')
-  res <- paste0(res, "---\n")
+  res <- paste0(res, "\n---\n")
   
   cat(res)
   
