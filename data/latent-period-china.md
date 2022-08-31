@@ -4,7 +4,7 @@ doi: 10.1093/cid/ciab746
 title-paper: "Estimating the Latent Period of Coronavirus Disease 2019 (COVID-19)"
 software-package:
 parameters:
-  - Duration,
+  - Duration
   - Latent period
 example-papers:  
 keywords:

@@ -17,7 +17,7 @@
 
 **keywords:** [**`latent period`**](../by-keyword.md#latent-period), [**`incubation period`**](../by-keyword.md#incubation-period), [**`gamma`**](../by-keyword.md#gamma), [**`weibull model`**](../by-keyword.md#weibull-model), [**`log-normal model`**](../by-keyword.md#log-normal-model) 
 
-**Parameters:** [**`duration,`**](../by-parameter.md#duration), [**`latent period`**](../by-parameter.md#latent-period) 
+**Parameters:** [**`duration`**](../by-parameter.md#duration), [**`latent period`**](../by-parameter.md#latent-period) 
 
 
 ## Content
