@@ -4,7 +4,7 @@
 
 This repository compiles information about epidemics modeling. The goal is
 to provide a centralized and standardized way of adding annotated data entries
-about methods, software, data, and scientific articles on the subject. asdasd
+about methods, software, data, and scientific articles on the subject. 
 
 The main entries are located in the [`data`](data) folder. The [`docs`](docs) folder
 contains reports made using that data. The site can be compiled using `make all`
