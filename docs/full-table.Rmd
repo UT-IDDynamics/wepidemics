@@ -3,6 +3,10 @@ output: github_document
 title: Full table
 ---
 
+This repository compiles information about epidemics modeling. The goal is
+to provide a centralized and standardized way of adding annotated data entries
+about methods, software, data, and scientific articles on the subject. 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(yaml)
