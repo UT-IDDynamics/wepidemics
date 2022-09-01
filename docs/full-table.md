@@ -1,6 +1,11 @@
 Full table
 ================
 
+This repository compiles information about epidemics modeling. The goal
+is to provide a centralized and standardized way of adding annotated
+data entries about methods, software, data, and scientific articles on
+the subject.
+
 [![Number of
 entries](https://img.shields.io/badge/dynamic/json?label=Entries&query=message&url=https%3A%2F%2Fut-iddynamics.github.io%2Fwepidemics%2Finfo%2Fentries.json)](https://github.com/UT-IDDynamics/wepidemics)
 [![Last
